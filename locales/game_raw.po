@@ -1,0 +1,1511 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Barrage Musical Tutorial\n"
+"Language: ko\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/0"
+msgid "Hello, and welcome to Barrage Musical: Basic Danmaku Tutorial! "
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/1"
+msgid ""
+"This lecture aims to teach beginners about the basics of danmaku, including "
+"hitboxes, bullet types, danmaku patterns, and strategies."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/2"
+msgid "If you are a veteran, feel free to skip ahead."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/3"
+msgid "Let's start from understanding collision and hitboxes."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/4"
+msgid "In a shooting game, dodging bullets is your central action."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/5"
+msgid "You only stand a fighting chance if your enemies can't hit you!"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/6"
+msgid ""
+"A bullet only hits you when its area of collision, or \"hitbox\", comes into"
+" contact with your hitbox."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/7"
+msgid "Hitboxes can be quite different from the graphics on-screen."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/8"
+msgid ""
+"You can see your hitbox when pressing the \"focus\" key or button (default: "
+"Left Shift), which slows you down."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/9"
+msgid "You are only hit when this central dot overlaps with a bullet."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/10"
+msgid "See, isn't it tiny?"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/11"
+msgid ""
+"Same goes for the bullets - their hitboxes are also smaller than they seem."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/12"
+msgid ""
+"That's why you sometimes see bullets touch your hitbox without doing any "
+"damage."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/13"
+msgid "This conceit can be explained by the shmup genre's history."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/14"
+msgid ""
+"In early shmups, both player avatars and bullets have hitboxes that are "
+"close in size to their graphics. "
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/15"
+msgid "In addition, their bullets are also fast and highly randomized."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/16"
+msgid ""
+"On the other hand, modern shmups tend to have small hitboxes and greater "
+"amounts of bullets on-screen, "
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/17"
+msgid "especially in danmaku or \"bullet hell\" games."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/18"
+msgid ""
+"The spawning and trajectories of bullets follow more clear patterns, "
+"allowing them to create mesmerizing visual effects."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/19"
+msgid ""
+"Yes, while the barrage may seem daunting, most of them are just for show. "
+"Dodging danmaku is not as hard as it looks!"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
+msgctxt "story/A1.sry/20"
+msgid ""
+"Now, have a try at the game! Remember the default settings: use direction "
+"keys to move, Left Shift to move slowly or \"focus\", Z to shoot."
+msgstr ""
+
+#. 중국어: 之前讲到，不止是自机判定很小，就连子弹的判定也比可视范围小很多。
+msgctxt "story/A2_1.sry/0"
+msgid ""
+"In the last lesson, we established that your hitbox is smaller than appears,"
+" and the same applies to bullets."
+msgstr ""
+
+#. 중국어: 举个例子，像这样一颗子弹,
+msgctxt "story/A2_1.sry/1"
+msgid "For example, look at this bullet."
+msgstr ""
+
+#. 중국어: 其判定范围只有中间红色部分。
+msgctxt "story/A2_1.sry/2"
+msgid "Its hitbox covers the central red part, and NOTHING ELSE."
+msgstr ""
+
+#. 중국어: 因此，说极限状态的话，这种情况都不会中弹。
+msgctxt "story/A2_1.sry/3"
+msgid "You can graze the bullet as close as shown here, without taking a hit."
+msgstr ""
+
+#. 중국어: 接下来就让我们来熟悉一下常用的弹型吧。
+msgctxt "story/A2_1.sry/4"
+msgid "Next, we will familiarize ourselves with some common bullet types."
+msgstr ""
+
+#. 중국어: 为了方便大家对判定的认识，在本关卡内所有子弹的判定范围都会显示出来。
+msgctxt "story/A2_1.sry/5"
+msgid ""
+"As a learning aid, all bullets have their hitboxes marked in this lesson."
+msgstr ""
+
+#. 중국어: 只有中心红色圆圈内才有判定哦。
+msgctxt "story/A2_1.sry/6"
+msgid "Remember, only the red center will hit you."
+msgstr ""
+
+#. 중국어: 有一些子弹的可视范围和判定范围相差非常大，
+msgctxt "story/A2_2.sry/0"
+msgid ""
+"Some bullets have hitboxes that are wildly different from their appearances."
+msgstr ""
+
+#. 중국어: 有时候也会出现一些新的弹型,
+msgctxt "story/A2_2.sry/1"
+msgid "Occasionally you may encounter bullet types you haven’t seen before."
+msgstr ""
+
+#. 중국어: 这时大家要记得先摸清子弹的判定范围哦～
+msgctxt "story/A2_2.sry/2"
+msgid ""
+"You should devote some attention to figuring out their hitboxes, because "
+"knowing is half the battle!"
+msgstr ""
+
+#. 중국어: 激光是一种比较特殊的弹型，其判定范围大家要用心体会哦～
+msgctxt "story/A2_3.sry/0"
+msgid ""
+"Lasers have hitboxes different from other attacks. You need to learn its "
+"peculiarities by practice."
+msgstr ""
+
+#. 중국어: 大致就是这样了，总之只有先认清判定范围才能好好避弹啦。
+msgctxt "story/A2_4.sry/0"
+msgid "This concludes the lessons on hitboxes, crucial to any danmaku dodger."
+msgstr ""
+
+#. 중국어: 搞不清判定范围的话，永远只有玩玩Easy难度的份哦～
+msgctxt "story/A2_4.sry/1"
+msgid ""
+"If you want to graduate from the Easy difficulty, learning about them is a "
+"must."
+msgstr ""
+
+#. 중국어: 另外，自机子弹、敌机、Boss等等也有其特定的判定范围，广大弹幕爱好者们大家自己摸索吧～
+msgctxt "story/A2_4.sry/2"
+msgid ""
+"Everything has its unique hitbox: your own bullets, common enemies, bosses… "
+"Working out the secrets of hitboxes is part of the fun in a danmaku shooter!"
+msgstr ""
+
+#. 중국어: 从本关开始将介绍弹幕的运动规律哦～
+msgctxt "story/A3_1.sry/0"
+msgid "This lesson is the first in a series about danmaku patterns."
+msgstr ""
+
+#. 중국어: 可能广大初学者朋友觉得弹幕规律什么的很难掌握，但其实当今弹幕游戏都是很有规律的。
+msgctxt "story/A3_1.sry/1"
+msgid ""
+"Hundreds of trajectories may look complicated at first, but underlying them "
+"are a few simple rules."
+msgstr ""
+
+#. 중국어: 弹幕的运动规律通常可以分为随机弹、固定弹和自机相关。
+msgctxt "story/A3_1.sry/2"
+msgid ""
+"Most bullets in a danmaku game fall under three categories: randomized, "
+"fixed, and player-dependent."
+msgstr ""
+
+#. 중국어: 其中，纯粹的随机弹其实很少的。
+msgctxt "story/A3_1.sry/3"
+msgid "You rarely see truly random bullets in danmaku games."
+msgstr ""
+
+#. 중국어: 那么，先来演示一下什么叫纯粹的随机弹。
+msgctxt "story/A3_1.sry/4"
+msgid "Here follows a demonstration of true randomized shots."
+msgstr ""
+
+#. 중국어: 接招！
+msgctxt "story/A3_1.sry/5"
+msgid "Get ready!"
+msgstr ""
+
+#. 중국어: 纯随机弹由于杂乱无章，因此避弹难度也高，是对玩家反应速度、视野范围、控制精度的综合考验。
+msgctxt "story/A3_2.sry/0"
+msgid ""
+"True randomized shots are unpredictable and hard to dodge. They "
+"comprehensively test your reflex, motor skills, and situational awareness."
+msgstr ""
+
+#. 중국어: 但也因为画面过于混乱，使得弹幕缺乏美感，因而纯随机弹也很少用到。
+msgctxt "story/A3_2.sry/1"
+msgid ""
+"However, they are also too chaotic to be visually interesting, and not "
+"favored by danmaku games."
+msgstr ""
+
+#. 중국어: 更多的时候，是在一些固定形状的弹幕或者其他规律的弹幕基础上加入随机因子。
+msgctxt "story/A3_2.sry/2"
+msgid ""
+"Danmaku designers more often use randomization as a supplementary factor to "
+"spice up pre-determined patterns."
+msgstr ""
+
+#. 중국어: 比如这样，形状固定，角度随机。
+msgctxt "story/A3_2.sry/3"
+msgid ""
+"In this example, each group of bullets is arranged in a fixed pattern, and "
+"fired at a randomized angle."
+msgstr ""
+
+#. 중국어: 又或者像这样，基础形状固定，在单体速度和方向上随机。
+msgctxt "story/A3_3.sry/0"
+msgid ""
+"While in this example, you have a fixed general shape, but the exact "
+"velocity and direction of each bullet is randomized."
+msgstr ""
+
+#. 중국어: 很好理解吧～
+msgctxt "story/A3_4.sry/0"
+msgid "It's pretty self-evident, isn't it?\n"
+msgstr ""
+
+#. 중국어: 顺带一提，在游戏制作中对随机程度的控制是很高深的学问呢～
+msgctxt "story/A3_4.sry/1"
+msgid ""
+"For game developers, knowing how much randomization the game needs is an art"
+" and a science!"
+msgstr ""
+
+#. 중국어: 接下来介绍固定弹。
+msgctxt "story/A4_1.sry/0"
+msgid "Next, we shall look at fixed, or static shots."
+msgstr ""
+
+#. 중국어: 所谓固定弹就是既没有随机因素，也与自机无关的弹幕。
+msgctxt "story/A4_1.sry/1"
+msgid ""
+"The trajectories of fixed shots are neither random, nor calculated based on "
+"your position."
+msgstr ""
+
+#. 중국어: 固定弹会以固定的形状、固定的周期展开，因此只要摸清规律就可以轻松应对了。
+msgctxt "story/A4_1.sry/2"
+msgid ""
+"Fired at fixed angles and intervals, they can be easily avoided once you "
+"know the pattern."
+msgstr ""
+
+#. 중국어: 固定弹也有绝对固定弹和相对固定弹之分。
+msgctxt "story/A4_2.sry/0"
+msgid ""
+"Some fixed shots have absolute trajectories, always forming the same shapes;"
+" some have relative trajectories."
+msgstr ""
+
+#. 중국어: 所谓相对固定弹，即弹幕相对于发弹点位置固定。
+msgctxt "story/A4_2.sry/1"
+msgid ""
+"By \"relative\", I mean their trajectories are only fixed in relation to "
+"their sources, not the screen."
+msgstr ""
+
+#. 중국어: 当发弹点位置发生改变时，弹幕整体形状发生平移。
+msgctxt "story/A4_2.sry/2"
+msgid ""
+"As a bullet source moves through the screen, the pattern it shoots out "
+"becomes stretched or squeezed."
+msgstr ""
+
+#. 중국어: 对于这种情况，只要保持好自机和发弹点的相对位置关系就好啦～
+msgctxt "story/A4_2.sry/3"
+msgid ""
+"In such cases, what matters is where you are in relation to the bullet "
+"source."
+msgstr ""
+
+#. 중국어: 下面来介绍自机狙。
+msgctxt "story/A5_1.sry/0"
+msgid "This lesson deals with aimed shots."
+msgstr ""
+
+#. 중국어: 所谓自机狙就是朝自机发射过来的子弹。
+msgctxt "story/A5_1.sry/1"
+msgid "As the name indicates, they are directly aimed at the player."
+msgstr ""
+
+#. 중국어: 像这样
+msgctxt "story/A5_1.sry/2"
+msgid "Here is an example."
+msgstr ""
+
+#. 중국어: 面对大量狙的时候绝对不要乱动。
+msgctxt "story/A5_2.sry/0"
+msgid "However many bullets are aimed at you, never panic!"
+msgstr ""
+
+#. 중국어: 尤其大范围移动容易把子弹引乱。
+msgctxt "story/A5_2.sry/1"
+msgid ""
+"Moving haphazardly will cause aimed shots to spray all over the screen."
+msgstr ""
+
+#. 중국어: 版底微移是应对自机狙的基本方法哦～
+msgctxt "story/A5_2.sry/2"
+msgid ""
+"To dodge aimed bullets, you must learn to \"stream\" them - to lead their "
+"way using slow and steady movements."
+msgstr ""
+
+#. 중국어: 自机狙是对自机的指向性攻击。
+msgctxt "story/A5_3.sry/0"
+msgid ""
+"Always remember, an aimed shot targets where you were when it was first "
+"fired."
+msgstr ""
+
+#. 중국어: 可以产生直接的威胁，却有相当的规律性。
+msgctxt "story/A5_3.sry/1"
+msgid "They are a direct threat to your safety, yet also highly predictable."
+msgstr ""
+
+#. 중국어: 只要应对正确的话，就不会出现很混乱的场面了。
+msgctxt "story/A5_3.sry/2"
+msgid "Keep a steady hand, and aimed shots will be under your control."
+msgstr ""
+
+#. 중국어: 自机狙也可以推广到自机相关的弹幕。
+msgctxt "story/A6_1.sry/0"
+msgid ""
+"The lesson from aimed shots can be generalized to other types of player-"
+"dependent shots - bullets fired at angles based on your position."
+msgstr ""
+
+#. 중국어: 最典型的就是奇数弹和偶数弹。
+msgctxt "story/A6_1.sry/1"
+msgid ""
+"Based on the no. of directions in which they are fired, we call them odd or "
+"even shots."
+msgstr ""
+
+#. 중국어: 首先看奇数弹。
+msgctxt "story/A6_1.sry/2"
+msgid "First, odd shots."
+msgstr ""
+
+#. 중국어: 其实把奇数弹理解成狙就可以了，版底微移应对。
+msgctxt "story/A6_1.sry/3"
+msgid ""
+"They are essentially the same as aimed shots, which means they can be "
+"streamed."
+msgstr ""
+
+#. 중국어: 对于偶数弹，并不是说一圈子弹道数是偶数才叫偶数弹。
+msgctxt "story/A6_2.sry/0"
+msgid "\"Even shots\" actually don't have to be even-numbered."
+msgstr ""
+
+#. 중국어: 一般把朝自机偏离一定角度发射过来，必然打偏的都可以叫偶数弹。
+msgctxt "story/A6_2.sry/1"
+msgid ""
+"The term covers all patterns where all bullets are aimed at an angle away "
+"from you."
+msgstr ""
+
+#. 중국어: 当然奇数弹的子弹道数也不一定是奇数。
+msgctxt "story/A6_2.sry/2"
+msgid "Similarly, \"odd shots\" don't have to be literally so."
+msgstr ""
+
+#. 중국어: 总之，面对偶数弹，原地不动就不会死...
+msgctxt "story/A6_2.sry/3"
+msgid "If you don't move, even shots aren't going to kill you."
+msgstr ""
+
+#. 중국어: 在面对大量子弹的时候，如果能分清奇数弹和偶数弹，会大大降低难度哦～
+msgctxt "story/A6_3.sry/0"
+msgid ""
+"Your fight will be much easier if you can tell odd and even shots apart."
+msgstr ""
+
+#. 중국어: 一般情况下，只躲奇数弹，忽略偶数弹。
+msgctxt "story/A6_3.sry/1"
+msgid "Usually, you want to dodge odd shots, and leave even shots be.\n"
+msgstr ""
+
+#. 중국어: 偶数弹由于不产生直接杀伤，因此也很少单独出现，常常配合随机弹和自机狙组成组合弹幕。
+msgctxt "story/A7_1.sry/0"
+msgid ""
+"Because even shots do not directly threaten you, they seldom appear alone."
+msgstr ""
+
+#. 중국어: 由偶数弹进行封位，由随机弹或自机狙来产生杀伤。
+msgctxt "story/A7_1.sry/1"
+msgid ""
+"More often, they play a supporting role to randomized or aimed shots by "
+"blocking your way."
+msgstr ""
+
+#. 중국어: 但是也不要因此小看偶数弹哦，单纯的偶数弹也可以形成富有冲击力的视觉效果。
+msgctxt "story/A7_1.sry/2"
+msgid ""
+"They are far from useless; a designer can draw striking patterns using only "
+"even shots."
+msgstr ""
+
+#. 중국어: 那么，
+msgctxt "story/A7_1.sry/3"
+msgid "Well then…"
+msgstr ""
+
+#. 중국어: 来玩一下吧。
+msgctxt "story/A7_1.sry/4"
+msgid "How about testing it out?\n"
+msgstr ""
+
+#. 중국어: 注意，不要动哟～
+msgctxt "story/A7_1.sry/5"
+msgid "Keep in mind, you are not supposed to move!"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/0"
+msgid "Precision is an important skill for every shmup player."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/1"
+msgid ""
+"To help you navigate through all those dense arrays of bullets, there is a "
+"trick you need to know."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/2"
+msgid "First, we need another history lesson."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/3"
+msgid ""
+"In early shmups, when you move diagonally, you are applying both a vertical "
+"and a horizontal speed to your avatar. ."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/4"
+msgid ""
+"That is to say, the speed of your diagonal movement is actually 1.4 times "
+"that of your movement along the vertical or horizontal axes."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/5"
+msgid ""
+"This makes things easy for the programmers, but is not terribly realistic, "
+"isn't it?"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/6"
+msgid ""
+"That's why later shmups make your speed on diagonal and axial directions the"
+" same."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/7"
+msgid ""
+"However, this creates a new problem: what happens if you are at the edges of"
+" the screen?"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/8"
+msgid ""
+"For example, if you press \"down\" at the bottom of the screen, and then tap"
+" left or right, the screen border will have the downward component of your "
+"speed vector blocked…"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/9"
+msgid ""
+"And leave you with a horizontal component, at 0.7 times your normal speed!"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/10"
+msgid ""
+"Through this manoeuver, you can obtain the lowest speed possible, and make "
+"super-precise movements."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/11"
+msgid "This \"border-tapping\" is a technique any shmup experts must master.\n"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/12"
+msgid ""
+"It is accessible to various input devices, including gamepads with circular "
+"direction keys.\n"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 14 / CN 13)
+msgctxt "story/B1.sry/13"
+msgid "OK, let's have a try!"
+msgstr ""
+
+#. 중국어: 下面介绍自机狙的应对策略。
+msgctxt "story/B2.sry/0"
+msgid "This lesson continues our lecture on aimed shots.\n"
+msgstr ""
+
+#. 중국어: 版底微移当然是应对自机狙的一般方法。
+msgctxt "story/B2.sry/1"
+msgid ""
+"Streaming and border-tapping are the foundation of beating aimed shots."
+msgstr ""
+
+#. 중국어: 但是面对大量连续狙的时候，仅仅靠版底微移是不够的，往往需要折返。
+msgctxt "story/B2.sry/2"
+msgid ""
+"However, when the enemy is firing an unbroken line of bullets, streaming "
+"alone is not enough. You also need to \"restream\".\n"
+msgstr ""
+
+#. 중국어: 折返的基本动作是往一个方向移动一大步，以进行引弹，然后反方向微移。
+msgctxt "story/B2.sry/3"
+msgid ""
+"Restreaming involves misdirecting the bullets by making a large movement, "
+"allowing you to start a new streaming process towards the opposite "
+"direction.  "
+msgstr ""
+
+#. 중국어: 这也是一个非常重要的技巧哦～
+msgctxt "story/B2.sry/4"
+msgid "It is another essential technique.\n"
+msgstr ""
+
+#. 중국어: 折返的基本动作是这样，
+msgctxt "story/B2_2.sry/0"
+msgid "To restream, do the following."
+msgstr ""
+
+#. 중국어: 在单方向微移过程中看准弹幕间歇的时机，突然高速移动一大步，
+msgctxt "story/B2_2.sry/1"
+msgid ""
+"When you are streaming in one direction, make a sudden, large movement, to "
+"tear open a gap you can pass through…"
+msgstr ""
+
+#. 중국어: 然后反方向微移。
+msgctxt "story/B2_2.sry/2"
+msgid "Then start streaming in the other direction."
+msgstr ""
+
+#. 중국어: 这个技巧很重要，初学者要多加练习哦～
+msgctxt "story/B2_2.sry/3"
+msgid ""
+"If you are new to danmaku, this is a technique you must practice often."
+msgstr ""
+
+#. 중국어: 有时候自机狙的子弹成排状或是子弹判定范围很大，这种时候就不适合用微移的方法躲避了。
+msgctxt "story/B3.sry/0"
+msgid ""
+"Some aimed bullets are fanned out too widely, or have large hitboxes. "
+"Streaming may not be the right move for them."
+msgstr ""
+
+#. 중국어: 面对这种情况，可以考虑用绕圈的方法。
+msgctxt "story/B3.sry/1"
+msgid "In such cases, you should consider circling the enemy."
+msgstr ""
+
+#. 중국어: 至于怎么绕圈，下面给个极端点的例子好了...
+msgctxt "story/B3.sry/2"
+msgid "Here is a somewhat extreme example of a circling move."
+msgstr ""
+
+#. 중국어: 大型弹幕往往会把随机弹、固定弹、自机狙等混合使用。
+msgctxt "story/B4.sry/0"
+msgid ""
+"An advanced danmaku pattern often mixes randomized, fixed, and aimed shots."
+msgstr ""
+
+#. 중국어: 在遇到大量子弹的时候，记得先摸清弹幕的原理，然后就好应对了。
+msgctxt "story/B4.sry/1"
+msgid ""
+"When faced with hundreds of bullets, your life will be a lot easier if you "
+"can identify what kinds of attacks you are getting."
+msgstr ""
+
+#. 중국어: 下面演示一下固定弹与自机狙的组合。
+msgctxt "story/B4.sry/2"
+msgid "Here I will demonstrate a combo of fixed and aimed patterns."
+msgstr ""
+
+#. 중국어: 通常这种情况要认清固定弹的轨迹，然后集中精力躲自机狙哦～
+msgctxt "story/B4.sry/3"
+msgid ""
+"For such combos, you should recognize the fixed pattern, before "
+"concentrating on the aimed shots."
+msgstr ""
+
+#. 중국어: 下面演示一下随机弹与自机狙的组合。
+msgctxt "story/B5.sry/0"
+msgid "This lesson demonstrates a combo of randomized and aimed patterns."
+msgstr ""
+
+#. 중국어: 由于受到了随机弹封位，不能安心的躲避自机狙了。
+msgctxt "story/B5.sry/1"
+msgid ""
+"The randomized bullets apply a pressure, forcing you to deal with them in "
+"addition to dodging aimed shots."
+msgstr ""
+
+#. 중국어: 与之前固定弹与自机狙的组合不同，随机弹不能靠记忆及固定走位来降低威胁。
+msgctxt "story/B5.sry/2"
+msgid ""
+"Unlike the fixed+aimed combo before, you cannot mitigate the danger of stray"
+" bullets by memorizing a fixed path."
+msgstr ""
+
+#. 중국어: 因此必须同时躲避随机弹与自机狙两重威胁，所以这种组合还是相当有难度的。
+msgctxt "story/B5.sry/3"
+msgid ""
+"Both randomized and aimed shots are constant threats, which make the combo "
+"difficult.\n"
+msgstr ""
+
+#. 중국어: 通常的应对方法，除了掌握自机狙的基本应对策略外，剩下的就是
+msgctxt "story/B5.sry/4"
+msgid "Other than the basic aimed-shot techniques, all you gotta do is:\n"
+msgstr ""
+
+#. 중국어: 爆底力吧！
+msgctxt "story/B5.sry/5"
+msgid "Steel yourself, and improvise!"
+msgstr ""
+
+#. 중국어: 其实，单纯的自机狙加自机狙或者奇数弹加奇数弹也是可以玩出很多花样的。
+msgctxt "story/B6.sry/0"
+msgid ""
+"Designers can achieve myriad effects with nothing but aimed+aimed or odd+odd"
+" combos."
+msgstr ""
+
+#. 중국어: 比如下面演示多段速的自机狙。
+msgctxt "story/B6.sry/1"
+msgid ""
+"For an example, see this demonstration of aimed shots at variable speeds."
+msgstr ""
+
+#. 중국어: 如果要说有什么避弹诀窍的话，
+msgctxt "story/B6.sry/2"
+msgid "If there's any trick to the pattern…"
+msgstr ""
+
+#. 중국어: 就是要找到一个节奏吧～
+msgctxt "story/B6.sry/3"
+msgid "It's that it has a rhythm that you must learn to follow."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 9 / CN 8)
+msgctxt "story/B7.sry/0"
+msgid ""
+"Some danmaku patterns have special locations where no bullet will pass "
+"through."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 9 / CN 8)
+msgctxt "story/B7.sry/1"
+msgid "In other words, safe spots for you."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 9 / CN 8)
+msgctxt "story/B7.sry/2"
+msgid "Safe spots are likely to be found in fixed patterns.\n"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 9 / CN 8)
+msgctxt "story/B7.sry/3"
+msgid ""
+"It’s obvious if you think about it: it takes special effort to make a fixed "
+"pattern that covers every point on the screen.\n"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 9 / CN 8)
+msgctxt "story/B7.sry/4"
+msgid "Same applies to combos of fixed and even shots."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 9 / CN 8)
+msgctxt "story/B7.sry/5"
+msgid ""
+"Nonetheless, safe spots are often not immediately visible and need you to "
+"find them."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 9 / CN 8)
+msgctxt "story/B7.sry/6"
+msgid "Some games have safe spots that are so good they trivialize the game.\n"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 9 / CN 8)
+msgctxt "story/B7.sry/7"
+msgid ""
+"Discovering a safe spot or two can remove a lot of pressure from your "
+"battle."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 9 / CN 8)
+msgctxt "story/B7.sry/8"
+msgid "Here is an example of a safe spot on the border."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/0"
+msgid "This lesson is about interwoven shots."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/1"
+msgid "In other words, bullets coming from two intersecting directions."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/2"
+msgid "An interwoven pattern puts you under two different kinds of threats."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/3"
+msgid ""
+"Here, the key is to avoid dodging two bullets in one move, a dangerous "
+"situation that occurs if you wait passively for bullets to come. "
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/4"
+msgid "Instead, you must actively go forward and cross their gaps."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/5"
+msgid ""
+"By crossing the bullet waves one at a time, you break the pattern down into "
+"smaller challenges, and deal with them on your own terms."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/6"
+msgid ""
+"Interwoven shots can come from any direction, and \"active gap-crossing\" is"
+" the guiding principle for all of them."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/7"
+msgid ""
+"To be slightly off-topic, there are several methods for generating "
+"interwoven shots:"
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/8"
+msgid ""
+"Multiple bullet sources, a single moving source, bullets that change "
+"directions half-way, and bouncing bullets."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/9"
+msgid ""
+"If you are interested in becoming a danmaku designer, this might be useful "
+"to you."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/10"
+msgid ""
+"In most cases, you are not going to see interwoven shots attacking from more"
+" than three directions."
+msgstr ""
+
+#. 중국어 파일 대화 수 다름 (EN 12 / CN 11)
+msgctxt "story/B8.sry/11"
+msgid ""
+"Over three threats at the same time, that might be too much for the best of "
+"us!"
+msgstr ""
+
+#. 중국어: 在面对这种波状交叉弹的时候，
+msgctxt "story/B8_2.sry/0"
+msgid "For the waving interwoven shots in this example…"
+msgstr ""
+
+#. 중국어: 如果一直呆着中间躲的话，就不得不同时面对三方向的子弹。
+msgctxt "story/B8_2.sry/1"
+msgid ""
+"Staying in the middle section exposes you to bullets from three directions."
+msgstr ""
+
+#. 중국어: 因此要主动向一边移动，将子弹分批穿过，每次只穿一波子弹。
+msgctxt "story/B8_2.sry/2"
+msgid "The solution is to move to one side, cross them one wave at a time."
+msgstr ""
+
+#. 중국어: 这样难度就可以大幅降低了哦～
+msgctxt "story/B8_2.sry/3"
+msgid "This can drastically reduce its difficulty."
+msgstr ""
+
+#. 중국어: 基础教学部分就差不多要告一段落了。
+msgctxt "story/B9.sry/0"
+msgid "We are now nearing the end of Basic Danmaku Tutorial."
+msgstr ""
+
+#. 중국어: 最后让我们综合的练习一下吧。
+msgctxt "story/B9.sry/1"
+msgid "For the last lesson, let’s try an integrated practice."
+msgstr ""
+
+#. 중국어: 那么
+msgctxt "story/B9.sry/2"
+msgid "Are you ready?\n"
+msgstr ""
+
+#. 중국어: 。。。。。。
+msgctxt "story/B9.sry/3"
+msgid "......"
+msgstr ""
+
+#. 중국어: 金吉拉
+msgctxt "chara"
+msgid "ChinChilla"
+msgstr ""
+
+#. 중국어: 失败5次或通关可以观看
+#. 에셋: level3:2883, level3:3051, level3:3920, level3:4109,
+#. sharedassets3.assets:125, sharedassets3.assets:190
+msgctxt "loctext"
+msgid "watchable after 5 attempts or clearing"
+msgstr ""
+
+#. 에셋: level1:1999, sharedassets1.assets:2048
+msgctxt "scene/000"
+msgid ""
+"<size=+16>弹幕音乐绘基础教学篇·序章</size>\n"
+"由传说中的光剑妖精主讲的基础教学课程，欢迎收看！"
+msgstr ""
+
+#. 에셋: level1:2001, sharedassets1.assets:1886
+msgctxt "scene/001"
+msgid "游戏次数"
+msgstr ""
+
+#. 에셋: level1:2003, sharedassets1.assets:2040
+msgctxt "scene/002"
+msgid "游戏时间"
+msgstr ""
+
+#. 에셋: level1:2004, sharedassets1.assets:2111
+msgctxt "scene/003"
+msgid "按确定键翻页"
+msgstr ""
+
+#. 에셋: level1:2013, sharedassets1.assets:1965
+msgctxt "scene/004"
+msgid ""
+"Boss曲                              作曲：文件 "
+"\\n已经完全放飞自我了，东方风不存在了。\\n<font=\"DFMrg5_1 SDF\">東方風はどこ…？ここ…？<font=\"DFMrg5_1 "
+"SDF\">"
+msgstr ""
+
+#. 에셋: level2:2668, level3:2746, sharedassets2.assets:2860
+msgctxt "scene/005"
+msgid ""
+"让我们测试一下自动换行，测试一下总共能显示多少字<#00ff00>多少字</color><size=24>多少字48</size>多少字多少字多少字多少字多少字多少字多少字多少字x<sup>2</sup>+y<sup>2</sup>"
+" = 1"
+msgstr ""
+
+#. 에셋: level2:2671, level3:2748, sharedassets2.assets:3709
+msgctxt "scene/006"
+msgid "贝丽尔"
+msgstr ""
+
+#. 에셋: level3:2743, level3:2745, level3:2750, level3:2752,
+#. sharedassets3.assets:139, sharedassets3.assets:163
+msgctxt "scene/007"
+msgid "失败5次或通关可以观看"
+msgstr ""
+
+#. 에셋: level4:164
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/008"
+msgid "程序"
+msgstr ""
+
+#. 에셋: level4:165
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/009"
+msgid "砂砾籽"
+msgstr ""
+
+#. 에셋: level4:167
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/010"
+msgid "测试"
+msgstr ""
+
+#. 에셋: level4:168
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/011"
+msgid "音乐"
+msgstr ""
+
+#. 에셋: level4:169
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/012"
+msgid ""
+"文件\n"
+"MMT STUDIO音乐素材\n"
+"炼狱庭园音乐素材屋\n"
+msgstr ""
+
+#. 에셋: level4:170
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/013"
+msgid ""
+"atrican\n"
+"雨天放晴"
+msgstr ""
+
+#. 에셋: level4:171
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/014"
+msgid "英文翻译"
+msgstr ""
+
+#. 에셋: level4:172
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/015"
+msgid "自机行走图原画"
+msgstr ""
+
+#. 에셋: level4:173
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/016"
+msgid "Logo设计"
+msgstr ""
+
+#. 에셋: level4:176
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/017"
+msgid "星野"
+msgstr ""
+
+#. 에셋: level4:177
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/018"
+msgid "音效"
+msgstr ""
+
+#. 에셋: level4:179
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/019"
+msgid "感谢Pinkgun和keylol社区"
+msgstr ""
+
+#. 에셋: level4:180
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/020"
+msgid "鸣谢"
+msgstr ""
+
+#. 에셋: level4:181
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/021"
+msgid "奇亿音乐"
+msgstr ""
+
+#. 에셋: level4:182
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/022"
+msgid "日文翻译"
+msgstr ""
+
+#. 에셋: level4:183
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/023"
+msgid "流月"
+msgstr ""
+
+#. 에셋: level4:184
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/024"
+msgid "星海天下"
+msgstr ""
+
+#. 에셋: level4:185
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/025"
+msgid ""
+"SeiweLL\n"
+"俄罗斯方块"
+msgstr ""
+
+#. 에셋: level4:186
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/026"
+msgid ""
+"神影隐身\n"
+"kiraru\n"
+"水之早苗"
+msgstr ""
+
+#. 에셋: level4:187
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/027"
+msgid ""
+"关卡设计\n"
+"剧本\n"
+"背景\n"
+"界面美术\n"
+"立绘及行走图动态"
+msgstr ""
+
+#. 에셋: level4:188
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/028"
+msgid "立绘原画"
+msgstr ""
+
+#. 에셋: level4:189
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/029"
+msgid ""
+"\r"
+"感谢您的游玩！\n"
+"<size=-4/>Thank you for playing！</size>"
+msgstr ""
+
+#. 에셋: level4:190
+#. credits: translate role titles only; keep person names unchanged
+msgctxt "scene/030"
+msgid "蠢岚岚岚\n"
+msgstr ""
+
+#. 중국어: 标题曲
+#. 出自MMT STUDIO免费音乐素材
+#. Music Room description (MenuMusicRoom.Awake, SCN table row 1)
+msgctxt "dll/Shooting.Menu.MenuMusicRoom::Awake#26"
+msgid ""
+"Title theme.\n"
+"From the MMT STUDIO free music library."
+msgstr ""
+
+#. 중국어: 基础教学篇A部分配乐
+#. 出自炼狱庭园音乐素材屋
+#. Music Room description (MenuMusicRoom.Awake, SCN table row 2)
+msgctxt "dll/Shooting.Menu.MenuMusicRoom::Awake#29"
+msgid ""
+"Background music for Basic Danmaku Tutorial Part A.\n"
+"From the Rengoku Teien free music library."
+msgstr ""
+
+#. 중국어: 基础教学篇B部分配乐
+#. 出自炼狱庭园音乐素材屋
+#. Music Room description (MenuMusicRoom.Awake, SCN table row 3)
+msgctxt "dll/Shooting.Menu.MenuMusicRoom::Awake#32"
+msgid ""
+"Background music for Basic Danmaku Tutorial Part B.\n"
+"From the Rengoku Teien free music library."
+msgstr ""
+
+#. 중국어: 基础教学篇B-9关卡配乐
+#. 文件聚聚重制的卡农，致敬劲乐团。
+#. 众所周知，STG是音乐游戏...
+#. Music Room description (MenuMusicRoom.Awake, SCN table row 4)
+msgctxt "dll/Shooting.Menu.MenuMusicRoom::Awake#35"
+msgid ""
+"Background music for Basic Danmaku Tutorial Stage B-9.\n"
+"Pachelbel's Canon, arranged by Master File (文件聚聚) in homage to the rhythm game O2Jam.\n"
+"As we all know, shmups are a subgenre of rhythm games..."
+msgstr ""
+
+#. 중국어: 永无止境的迷宫（时间挑战关卡）
+#. Spell Practice SP row title (MenuSpellPractice.Start, index 10); no
+#. language branch
+msgctxt "dll/Shooting.Menu.MenuSpellPractice::Start#1"
+msgid "永无止境的迷宫（时间挑战关卡）"
+msgstr ""
+
+#. 중국어: 影响控制算法的执行频率
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#17"
+msgid "影响控制算法的执行频率"
+msgstr ""
+
+#. 중국어: 影响敌弹在什么范围内会被视为威胁
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#18"
+msgid "影响敌弹在什么范围内会被视为威胁"
+msgstr ""
+
+#. 중국어: 是否对敌弹之后的运动进行预估
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#19"
+msgid "是否对敌弹之后的运动进行预估"
+msgstr ""
+
+#. 중국어: 是否主动攻击敌机
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#20"
+msgid "是否主动攻击敌机"
+msgstr ""
+
+#. 중국어: 是否将排状子弹做特殊处理
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#21"
+msgid "是否将排状子弹做特殊处理"
+msgstr ""
+
+#. 중국어: 开启后，AI将校验下一帧自机运动后是否中弹， 如果中弹，则重新调整移动策略
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#22"
+msgid "开启后，AI将校验下一帧自机运动后是否中弹， 如果中弹，则重新调整移动策略"
+msgstr ""
+
+#. 중국어: 在中弹瞬间释放高能粒子炮保住性命
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#23"
+msgid "在中弹瞬间释放高能粒子炮保住性命"
+msgstr ""
+
+#. 중국어: 影响自机主枪对敌机的杀伤力
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#24"
+msgid "影响自机主枪对敌机的杀伤力"
+msgstr ""
+
+#. 중국어: 影响子机的数量
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#25"
+msgid "影响子机的数量"
+msgstr ""
+
+#. 중국어: 自机初始的残机数量
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#26"
+msgid "自机初始的残机数量"
+msgstr ""
+
+#. 중국어: 高能粒子炮初始弹量
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#27"
+msgid "高能粒子炮初始弹量"
+msgstr ""
+
+#. 중국어: 影响在什么时候切换自机的高低速运动，值越高则越容易保持低速
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#28"
+msgid "影响在什么时候切换自机的高低速运动，值越高则越容易保持低速"
+msgstr ""
+
+#. 중국어: 当前子弹威胁计算时的权重因子
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#29"
+msgid "当前子弹威胁计算时的权重因子"
+msgstr ""
+
+#. 중국어: 预估1帧后子弹威胁的权重因子
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#30"
+msgid "预估1帧后子弹威胁的权重因子"
+msgstr ""
+
+#. 중국어: 预估2帧后子弹威胁的权重因子
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#31"
+msgid "预估2帧后子弹威胁的权重因子"
+msgstr ""
+
+#. 중국어: 攻击敌机的优先级，（避弹与攻击到底谁更优先呢？当然保命要紧）
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#32"
+msgid "攻击敌机的优先级，（避弹与攻击到底谁更优先呢？当然保命要紧）"
+msgstr ""
+
+#. 중국어: 将距离多近的子弹视为排弹
+#. Property window description line (PropertyWindow.SetDescription); no
+#. language branch, so this Chinese text is shown for every language
+msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#33"
+msgid "将距离多近的子弹视为排弹"
+msgstr ""
+
+#. 중국어: <size=+12>弹幕基础教学篇·序章</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#110"
+msgid "<size=+12>Preamble to Basic Danmaku Tutorial</size>\r\n"
+msgstr ""
+
+#. 중국어: 由传说中的光剑妖精主讲的基础教学课程，欢迎收看！
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#111"
+msgid ""
+"A lecture from Lightsaber Fairy on the fundamentals of danmaku dodging."
+msgstr ""
+
+#. 중국어: <size=+12>弹型与判定范围介绍</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#112"
+msgid "<size=+12>Intro to Bullet Types and Hitboxes</size>\r\n"
+msgstr ""
+
+#. 중국어: 本关中所有子弹显示判定范围，就算弹幕高手在游戏前也要先摸清判定哦～
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#113"
+msgid ""
+"Hitboxes are shown on all bullets during the lesson. Good to know even if "
+"you are a danmaku expert."
+msgstr ""
+
+#. 중국어: <size=+12>随机弹介绍</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#114"
+msgid "<size=+12>Intro to Randomized Shots</size>\r\n"
+msgstr ""
+
+#. 중국어: 随机弹的花样很多的哦～
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#115"
+msgid "Randomized shots come in many varieties and shapes."
+msgstr ""
+
+#. 중국어: <size=+12>固定弹介绍</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#116"
+msgid "<size=+12>Intro to Fixed Shots</size>\r\n"
+msgstr ""
+
+#. 중국어: 包括绝对固定和相对固定
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#117"
+msgid "Absolute fixed shots and relative fixed shots."
+msgstr ""
+
+#. 중국어: <size=+12>自机狙入门</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#118"
+msgid "<size=+12>Intro to Aimed Shots</size>\r\n"
+msgstr ""
+
+#. 중국어: 对自机狙的理解是沙包成长的第一步！
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#119"
+msgid ""
+"Understanding aimed shots is the first step towards becoming a better "
+"player."
+msgstr ""
+
+#. 중국어: <size=+12>奇数弹与偶数弹入门</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#120"
+msgid "<size=+12>Intro to Odd and Even Shots</size>\r\n"
+msgstr ""
+
+#. 중국어: 基础的自机相关弹幕
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#121"
+msgid "The basics of player-dependent patterns."
+msgstr ""
+
+#. 중국어: <size=+12>
+#. 进击的偶数弹！！</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#122"
+msgid ""
+"<size=+12>\r\n"
+"Attack On Even Shots!!</size>\r\n"
+msgstr ""
+
+#. 중국어: <size=+12>贴版微移技巧</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#123"
+msgid "<size=+12>The Border-Tapping Technique</size>\r\n"
+msgstr ""
+
+#. 중국어: 开启条件：通过A-7
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#124"
+msgid "Unlock: Beat A-7"
+msgstr ""
+
+#. 중국어: <size=+12>自机狙应对技巧——折返</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#125"
+msgid "<size=+12>Reacting to Aimed Shots: Restreaming</size>\r\n"
+msgstr ""
+
+#. 중국어: 开启条件：通过B-1，损失不超过1残
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#126"
+msgid "Unlock: Beat B-1 losing 1 life or fewer"
+msgstr ""
+
+#. 중국어: <size=+12>自机狙应对技巧——绕圈</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#127"
+msgid "<size=+12>Reacting to Aimed Shots: Circling</size>\r\n"
+msgstr ""
+
+#. 중국어: 开启条件：通过B-2，损失不超过1残
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#128"
+msgid "Unlock: Beat B-2 losing 1 life or fewer"
+msgstr ""
+
+#. 중국어: <size=+12>组合弹幕——固定弹+自机狙</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#129"
+msgid "<size=+12>Combined Pattern: Fixed+Aimed</size>\r\n"
+msgstr ""
+
+#. 중국어: 开启条件：通过B-3，损失不超过1残
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#130"
+msgid "Unlock: Beat B-3 losing 1 life or fewer"
+msgstr ""
+
+#. 중국어: <size=+12>组合弹幕——随机弹+自机狙</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#131"
+msgid "<size=+12>Combined Pattern: Randomized+Aimed</size>\r\n"
+msgstr ""
+
+#. 중국어: 开启条件：通过B-4，损失不超过1残
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#132"
+msgid "Unlock: Beat B-4 losing 1 life or fewer"
+msgstr ""
+
+#. 중국어: <size=+12>组合弹幕——多段速自机狙</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#133"
+msgid "<size=+12>Combined Pattern: Variable Speed Aimed Shots</size>\r\n"
+msgstr ""
+
+#. 중국어: 开启条件：通过B-5，损失不超过1残
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#134"
+msgid "Unlock: Beat B-5 losing 1 life or fewer"
+msgstr ""
+
+#. 중국어: <size=+12>安定点简介</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#135"
+msgid "<size=+12>Intro to Safe Spots</size>\r\n"
+msgstr ""
+
+#. 중국어: 开启条件：通过B-6，损失不超过1残
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#136"
+msgid "Unlock: Beat B-6 losing 1 life or fewer"
+msgstr ""
+
+#. 중국어: <size=+12>交叉弹简介</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#137"
+msgid "<size=+12>Intro to Interwoven Shots</size>\r\n"
+msgstr ""
+
+#. 중국어: 开启条件：无伤通过B-7
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#138"
+msgid "Unlock: Beat B-7 without taking a hit"
+msgstr ""
+
+#. 중국어: <size=+12>综合</size>
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#139"
+msgid "<size=+12>Integrated Task</size>\r\n"
+msgstr ""
+
+#. 중국어: 开启条件：无伤通过B-8
+#. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
+#. branch)
+msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#140"
+msgid "Unlock: Beat B-8 without taking a hit"
+msgstr ""
+
+#. 중국어: 弹量：
+#. Bullet-count label prefix "弹量：" + Emit.BulletCount (TextScript.Update); no
+#. language branch
+msgctxt "dll/TextScript::Update#0"
+msgid "弹量："
+msgstr ""

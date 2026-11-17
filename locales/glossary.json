@@ -1,0 +1,192 @@
+[
+ {
+  "term": "<#00ff00>",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "regex"
+ },
+ {
+  "term": "</color>",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "regex"
+ },
+ {
+  "term": "</size>",
+  "ko": "",
+  "kind": "tag",
+  "count": 19,
+  "source": "regex"
+ },
+ {
+  "term": "</sup>",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "regex"
+ },
+ {
+  "term": "<font=\"DFMrg5_1 SDF\">",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "regex"
+ },
+ {
+  "term": "<size=+12>",
+  "ko": "",
+  "kind": "tag",
+  "count": 16,
+  "source": "regex"
+ },
+ {
+  "term": "<size=+12>\r\nAttack",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "spacy"
+ },
+ {
+  "term": "<size=+12>Combined Pattern",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "spacy"
+ },
+ {
+  "term": "<size=+12>Integrated Task</size",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "spacy"
+ },
+ {
+  "term": "<size=+12>Intro",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "spacy"
+ },
+ {
+  "term": "<size=+12>The Border-Tapping Technique</size",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "spacy"
+ },
+ {
+  "term": "<size=+16>",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "regex"
+ },
+ {
+  "term": "<size=-4/>",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "regex"
+ },
+ {
+  "term": "<size=24>",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "regex"
+ },
+ {
+  "term": "<sup>",
+  "ko": "",
+  "kind": "tag",
+  "count": 1,
+  "source": "regex"
+ },
+ {
+  "term": "danmaku",
+  "ko": "탄막",
+  "kind": "term"
+ },
+ {
+  "term": "bullet hell",
+  "ko": "탄막 슈팅",
+  "kind": "term"
+ },
+ {
+  "term": "shmup",
+  "ko": "슈팅 게임",
+  "kind": "term"
+ },
+ {
+  "term": "hitbox",
+  "ko": "피격 판정",
+  "kind": "term"
+ },
+ {
+  "term": "focus",
+  "ko": "저속 이동",
+  "kind": "term"
+ },
+ {
+  "term": "graze",
+  "ko": "그레이즈",
+  "kind": "term"
+ },
+ {
+  "term": "bomb",
+  "ko": "봄",
+  "kind": "term"
+ },
+ {
+  "term": "spell card",
+  "ko": "스펠 카드",
+  "kind": "term"
+ },
+ {
+  "term": "laser",
+  "ko": "레이저",
+  "kind": "term"
+ },
+ {
+  "term": "randomized shot",
+  "ko": "랜덤탄",
+  "kind": "term"
+ },
+ {
+  "term": "fixed shot",
+  "ko": "고정탄",
+  "kind": "term"
+ },
+ {
+  "term": "aimed shot",
+  "ko": "조준탄",
+  "kind": "term"
+ },
+ {
+  "term": "ChinChilla",
+  "ko": "친칠라",
+  "kind": "term"
+ },
+ {
+  "term": "Lightsaber Fairy",
+  "ko": "광선검 요정",
+  "kind": "term"
+ },
+ {
+  "term": "Beryl",
+  "ko": "베릴",
+  "kind": "term"
+ },
+ {
+  "term": "Barrage Musical",
+  "ko": "탄막 뮤지컬",
+  "kind": "term"
+ },
+ {
+  "term": "Basic Danmaku Tutorial",
+  "ko": "기초 교육편",
+  "kind": "term"
+ }
+]

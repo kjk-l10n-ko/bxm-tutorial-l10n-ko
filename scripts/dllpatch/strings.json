@@ -1,0 +1,330 @@
+{
+  "include": {
+    "Shooting.MenuCameraCtrl::SetCameraTarget#110": {
+      "zh": "<size=+12>弹幕基础教学篇·序章</size>\r\n",
+      "en": "<size=+12>Preamble to Basic Danmaku Tutorial</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#111": {
+      "zh": "由传说中的光剑妖精主讲的基础教学课程，欢迎收看！",
+      "en": "A lecture from Lightsaber Fairy on the fundamentals of danmaku dodging.",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#112": {
+      "zh": "<size=+12>弹型与判定范围介绍</size>\r\n",
+      "en": "<size=+12>Intro to Bullet Types and Hitboxes</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#113": {
+      "zh": "本关中所有子弹显示判定范围，就算弹幕高手在游戏前也要先摸清判定哦～",
+      "en": "Hitboxes are shown on all bullets during the lesson. Good to know even if you are a danmaku expert.",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#114": {
+      "zh": "<size=+12>随机弹介绍</size>\r\n",
+      "en": "<size=+12>Intro to Randomized Shots</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#115": {
+      "zh": "随机弹的花样很多的哦～",
+      "en": "Randomized shots come in many varieties and shapes.",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#116": {
+      "zh": "<size=+12>固定弹介绍</size>\r\n",
+      "en": "<size=+12>Intro to Fixed Shots</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#117": {
+      "zh": "包括绝对固定和相对固定",
+      "en": "Absolute fixed shots and relative fixed shots.",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#118": {
+      "zh": "<size=+12>自机狙入门</size>\r\n",
+      "en": "<size=+12>Intro to Aimed Shots</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#119": {
+      "zh": "对自机狙的理解是沙包成长的第一步！",
+      "en": "Understanding aimed shots is the first step towards becoming a better player.",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#120": {
+      "zh": "<size=+12>奇数弹与偶数弹入门</size>\r\n",
+      "en": "<size=+12>Intro to Odd and Even Shots</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#121": {
+      "zh": "基础的自机相关弹幕",
+      "en": "The basics of player-dependent patterns.",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#122": {
+      "zh": "<size=+12>\r\n进击的偶数弹！！</size>\r\n",
+      "en": "<size=+12>\r\nAttack On Even Shots!!</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#123": {
+      "zh": "<size=+12>贴版微移技巧</size>\r\n",
+      "en": "<size=+12>The Border-Tapping Technique</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#124": {
+      "zh": "开启条件：通过A-7",
+      "en": "Unlock: Beat A-7",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#125": {
+      "zh": "<size=+12>自机狙应对技巧——折返</size>\r\n",
+      "en": "<size=+12>Reacting to Aimed Shots: Restreaming</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#126": {
+      "zh": "开启条件：通过B-1，损失不超过1残",
+      "en": "Unlock: Beat B-1 losing 1 life or fewer",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#127": {
+      "zh": "<size=+12>自机狙应对技巧——绕圈</size>\r\n",
+      "en": "<size=+12>Reacting to Aimed Shots: Circling</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#128": {
+      "zh": "开启条件：通过B-2，损失不超过1残",
+      "en": "Unlock: Beat B-2 losing 1 life or fewer",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#129": {
+      "zh": "<size=+12>组合弹幕——固定弹+自机狙</size>\r\n",
+      "en": "<size=+12>Combined Pattern: Fixed+Aimed</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#130": {
+      "zh": "开启条件：通过B-3，损失不超过1残",
+      "en": "Unlock: Beat B-3 losing 1 life or fewer",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#131": {
+      "zh": "<size=+12>组合弹幕——随机弹+自机狙</size>\r\n",
+      "en": "<size=+12>Combined Pattern: Randomized+Aimed</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#132": {
+      "zh": "开启条件：通过B-4，损失不超过1残",
+      "en": "Unlock: Beat B-4 losing 1 life or fewer",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#133": {
+      "zh": "<size=+12>组合弹幕——多段速自机狙</size>\r\n",
+      "en": "<size=+12>Combined Pattern: Variable Speed Aimed Shots</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#134": {
+      "zh": "开启条件：通过B-5，损失不超过1残",
+      "en": "Unlock: Beat B-5 losing 1 life or fewer",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#135": {
+      "zh": "<size=+12>安定点简介</size>\r\n",
+      "en": "<size=+12>Intro to Safe Spots</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#136": {
+      "zh": "开启条件：通过B-6，损失不超过1残",
+      "en": "Unlock: Beat B-6 losing 1 life or fewer",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#137": {
+      "zh": "<size=+12>交叉弹简介</size>\r\n",
+      "en": "<size=+12>Intro to Interwoven Shots</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#138": {
+      "zh": "开启条件：无伤通过B-7",
+      "en": "Unlock: Beat B-7 without taking a hit",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#139": {
+      "zh": "<size=+12>综合</size>\r\n",
+      "en": "<size=+12>Integrated Task</size>\r\n",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.MenuCameraCtrl::SetCameraTarget#140": {
+      "zh": "开启条件：无伤通过B-8",
+      "en": "Unlock: Beat B-8 without taking a hit",
+      "note": "Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN branch)"
+    },
+    "Shooting.Menu.MenuMusicRoom::Awake#26": {
+      "zh": "标题曲\n出自MMT STUDIO免费音乐素材",
+      "en": "Title theme.\nFrom the MMT STUDIO free music library.",
+      "note": "Music Room description (MenuMusicRoom.Awake, SCN table row 1)"
+    },
+    "Shooting.Menu.MenuMusicRoom::Awake#29": {
+      "zh": "基础教学篇A部分配乐\n出自炼狱庭园音乐素材屋",
+      "en": "Background music for Basic Danmaku Tutorial Part A.\nFrom the Rengoku Teien free music library.",
+      "note": "Music Room description (MenuMusicRoom.Awake, SCN table row 2)"
+    },
+    "Shooting.Menu.MenuMusicRoom::Awake#32": {
+      "zh": "基础教学篇B部分配乐\n出自炼狱庭园音乐素材屋",
+      "en": "Background music for Basic Danmaku Tutorial Part B.\nFrom the Rengoku Teien free music library.",
+      "note": "Music Room description (MenuMusicRoom.Awake, SCN table row 3)"
+    },
+    "Shooting.Menu.MenuMusicRoom::Awake#35": {
+      "zh": "基础教学篇B-9关卡配乐\n文件聚聚重制的卡农，致敬劲乐团。\n众所周知，STG是音乐游戏...",
+      "en": "Background music for Basic Danmaku Tutorial Stage B-9.\nPachelbel's Canon, arranged by Master File (文件聚聚) in homage to the rhythm game O2Jam.\nAs we all know, shmups are a subgenre of rhythm games...",
+      "note": "Music Room description (MenuMusicRoom.Awake, SCN table row 4)"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#17": {
+      "zh": "影响控制算法的执行频率",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#18": {
+      "zh": "影响敌弹在什么范围内会被视为威胁",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#19": {
+      "zh": "是否对敌弹之后的运动进行预估",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#20": {
+      "zh": "是否主动攻击敌机",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#21": {
+      "zh": "是否将排状子弹做特殊处理",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#22": {
+      "zh": "开启后，AI将校验下一帧自机运动后是否中弹， 如果中弹，则重新调整移动策略",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#23": {
+      "zh": "在中弹瞬间释放高能粒子炮保住性命",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#24": {
+      "zh": "影响自机主枪对敌机的杀伤力",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#25": {
+      "zh": "影响子机的数量",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#26": {
+      "zh": "自机初始的残机数量",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#27": {
+      "zh": "高能粒子炮初始弹量",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#28": {
+      "zh": "影响在什么时候切换自机的高低速运动，值越高则越容易保持低速",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#29": {
+      "zh": "当前子弹威胁计算时的权重因子",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#30": {
+      "zh": "预估1帧后子弹威胁的权重因子",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#31": {
+      "zh": "预估2帧后子弹威胁的权重因子",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#32": {
+      "zh": "攻击敌机的优先级，（避弹与攻击到底谁更优先呢？当然保命要紧）",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.PropertyWindow::SetDescription#33": {
+      "zh": "将距离多近的子弹视为排弹",
+      "en": null,
+      "note": "Property window description line (PropertyWindow.SetDescription); no language branch, so this Chinese text is shown for every language"
+    },
+    "Shooting.Menu.MenuSpellPractice::Start#1": {
+      "zh": "永无止境的迷宫（时间挑战关卡）",
+      "en": null,
+      "note": "Spell Practice SP row title (MenuSpellPractice.Start, index 10); no language branch"
+    },
+    "TextScript::Update#0": {
+      "zh": "弹量：",
+      "en": null,
+      "note": "Bullet-count label prefix \"弹量：\" + Emit.BulletCount (TextScript.Update); no language branch"
+    }
+  },
+  "exclude": {
+    "Shooting.MenuCameraCtrl::SetCameraTarget#16": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#17": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#18": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#19": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#20": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#21": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#22": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#23": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#24": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#25": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#26": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#27": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#28": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#29": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#30": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#31": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#32": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#33": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#34": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#35": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#36": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#37": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#38": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#39": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#40": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#41": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#42": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#43": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#44": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#45": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.MenuCameraCtrl::SetCameraTarget#46": "Japanese description literal (Language.JP branch); not shown in the SCN slot",
+    "Shooting.Menu.MenuMusicRoom::Awake#10": "BGM resource name in the EN table (Language.EN branch), used as BGMPlayer key; not displayed",
+    "Shooting.Menu.MenuMusicRoom::Awake#11": "English Music Room description (Language.EN branch); not shown in the SCN slot",
+    "Shooting.Menu.MenuMusicRoom::Awake#14": "Japanese Music Room description (Language.JP branch); not shown in the SCN slot",
+    "Shooting.Menu.MenuMusicRoom::Awake#17": "Japanese Music Room description (Language.JP branch); not shown in the SCN slot",
+    "Shooting.Menu.MenuMusicRoom::Awake#20": "Japanese Music Room description (Language.JP branch); not shown in the SCN slot",
+    "Shooting.Menu.MenuMusicRoom::Awake#22": "BGM resource name in the JP table (Language.JP branch), used as BGMPlayer key; not displayed",
+    "Shooting.Menu.MenuMusicRoom::Awake#23": "Japanese Music Room description (Language.JP branch); not shown in the SCN slot",
+    "Shooting.Menu.MenuMusicRoom::Awake#34": "BGM resource name key (\"BGM\\\\卡农\" for BGMPlayer.ChangeBGM / preset dictionary); MenuMusicRoomItem.FileName is never rendered",
+    "Shooting.BGMPlayer::Awake#2": "BGM preset dictionary key looked up by ChangeBGMPrefabs; not display text",
+    "Shooting.BossChinchillaB9::Ctrl1#1": "BGM preset key passed to ChangeBGMPrefabs; not display text",
+    "StaffStage::Awake#0": "BGM preset key passed to ChangeBGMPrefabs; not display text",
+    "Shooting.BerilStage01::Drama#2": "BGM resource path key passed to ChangeBGM; not display text",
+    "Shooting.Planes.MyPlane.BerilSpark::Ctrl#2": "Sound effect resource name passed to SoundPlay2; not display text",
+    "Shooting.Planes.MyPlane.BerilSpark::Ctrl#3": "Sound effect resource name passed to SoundPlay2; not display text",
+    "Shooting.SpriteManager::LoadTextureCustom#3": "MessageBox title of a duplicate-texture load error (debug/error dialog); not gameplay UI text",
+    "Shooting.SpriteManager::LoadTextureCustom#5": "MessageBox title of a duplicate-texture load error (debug/error dialog); not gameplay UI text",
+    "Shooting.SpriteManager::TextureObjectLoader#1": "MessageBox title of a duplicate-texture load error (debug/error dialog); not gameplay UI text",
+    "Shooting.SpriteManager::TextureObjectLoader#3": "MessageBox title of a duplicate-texture load error (debug/error dialog); not gameplay UI text",
+    "Shooting.SpriteManager::<LoadUnityImage>m__0#0": "MessageBox title of a duplicate-texture load error (debug/error dialog); not gameplay UI text",
+    "Shooting.Planes.Effect.EndStage::Ctrl#0": "MonoBehaviour.print debug log; never shown to the player",
+    "Shooting.Planes.MyPlane.BaseMyPlane::RetryClear#0": "MonoBehaviour.print debug log; never shown to the player",
+    "UIwatcher::Update#0": "Debug.Log message; never shown to the player",
+    "UIwatcher::Update#1": "Debug.Log message; never shown to the player"
+  }
+}
