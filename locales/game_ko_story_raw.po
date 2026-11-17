@@ -1,0 +1,829 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Barrage Musical Tutorial\n"
+"Language: ko\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#. 中文: 大家好，欢迎观看弹幕音乐绘之基础教学篇～
+msgctxt "story/A1.sry/0"
+msgid "こんにちは、弾幕音楽絵の基礎指導編へようこそ～"
+msgstr ""
+
+#. 中文: 接下去给大家带来的，是面向初学者的基础教学关卡，会从判定范围、子弹类型、弹幕的运动规律及应对策略等方面进行介绍。
+msgctxt "story/A1.sry/1"
+msgid "ここは初心者向けの指導ステージです。あたり判定範囲、弾幕の種類、弾幕の運動パターンとその対応策等を紹介します～"
+msgstr ""
+
+#. 中文: 高手们是可以无视啦。。。
+msgctxt "story/A1.sry/2"
+msgid "もう上達した方は無視してください…"
+msgstr ""
+
+#. 中文: 那么，首先从判定开始吧～
+msgctxt "story/A1.sry/3"
+msgid "それでは、まず当たり判定から行きましょう～"
+msgstr ""
+
+#. 中文: 作为STG也就是Shooting Game，最主要的游戏元素就是避弹。
+msgctxt "story/A1.sry/4"
+msgid "STG、即ちShooting Gameとして、一番メインな要素は弾幕を避けることです。"
+msgstr ""
+
+#. 中文: 不管怎样，只要不被打中就好了。
+msgctxt "story/A1.sry/5"
+msgid "ともあれ、当たらなければいいんです。"
+msgstr ""
+
+#. 中文: 但是对于“怎样算中弹”这件事其实有很多讲究哦。
+msgctxt "story/A1.sry/6"
+msgid "しかし、「当たる」ということにいろんなルールがありまして、"
+msgstr ""
+
+#. 中文: 通常都不是子弹接触到自机图形时就算作中弹的。
+msgctxt "story/A1.sry/7"
+msgid "弾が自機のドット絵に接触しただけでは当たらないんです。"
+msgstr ""
+
+#. 中文: 当按住低速键（默认为左Shift键）时，自机上会显示出判定点。
+msgctxt "story/A1.sry/8"
+msgid "低速キー（左Shiftキー）を押したら、自機上には判定が現れ。"
+msgstr ""
+
+#. 中文: 只有中心判定点与子弹接触才算中弹哦。
+msgctxt "story/A1.sry/9"
+msgid "その中心が弾幕と接触してはじめて「当たる」と言うのです。"
+msgstr ""
+
+#. 中文: 怎样，判定点很小吧～
+msgctxt "story/A1.sry/10"
+msgid "どうですか？小さいでしょう～"
+msgstr ""
+
+#. 中文: 其实，不只是自机，连子弹的判定都比可视范围小很多。
+msgctxt "story/A1.sry/11"
+msgid "実際、自機だけではなく、弾幕の判定も見える範囲より小さいです。"
+msgstr ""
+
+#. 中文: 所以会出现很多看似中弹，其实没中弹的情况。
+msgctxt "story/A1.sry/12"
+msgid "なので一見弾幕に当たっり、実際無事だった場合は多く見られます。"
+msgstr ""
+
+#. 中文: 稍微提一下STG发展历史。
+msgctxt "story/A1.sry/13"
+msgid "すこしSTGの歴史を話しましょう。"
+msgstr ""
+
+#. 中文: 在早期STG中，无论自机还是子弹的判定范围都和可视范围差不多，而且弹速快，随机性强。
+msgctxt "story/A1.sry/14"
+msgid "早期のSTGでは、自機と弾の当たり判定は見える範囲とほぼ同じで、スピードが速く、ランダム性も強い"
+msgstr ""
+
+#. 中文: 而在现在大多的STG中都采用了缩小了判定范围同时提升弹量的做法。
+msgctxt "story/A1.sry/15"
+msgid "ですが今のSTGは当たり判定を縮小し、同時に弾の量をアップするというやり方を採用してます。"
+msgstr ""
+
+#. 中文: 子弹的运动与生成更加有规律性，因此能出现很强的视觉效果。
+msgctxt "story/A1.sry/16"
+msgid "弾幕の運動と生成がもっと規律的なので、強い視覚効果を作れます。"
+msgstr ""
+
+#. 中文: 总之，虽然子弹很多，其实没有看上去那么难啦～
+msgctxt "story/A1.sry/17"
+msgid "とにかく、弾は多いですが、見た目ほど難しくないですから～"
+msgstr ""
+
+#. 中文: 那么，初学者们先上上手吧，默认是上下左右键控制方向、左Shift键低速移动、Z键射击哦～
+msgctxt "story/A1.sry/18"
+msgid "それでは少し練習しましょう、初期設定では矢印で移動、左Shiftキーをずっと押せば低速移動ができ、Zキーでシュートします。"
+msgstr ""
+
+#. 中文: 之前讲到，不止是自机判定很小，就连子弹的判定也比可视范围小很多。
+#. EN: In the last lesson, we established that your hitbox is smaller than appears, and the same applies to bullets.
+msgctxt "story/A2_1.sry/0"
+msgid "前も言いましたが、自機だけではなく、弾幕のあたり判定も見える範囲より小さい。"
+msgstr ""
+
+#. 中文: 举个例子，像这样一颗子弹,
+#. EN: For example, look at this bullet.
+msgctxt "story/A2_1.sry/1"
+msgid "例えば、こんな弾ですが"
+msgstr ""
+
+#. 中文: 其判定范围只有中间红色部分。
+#. EN: Its hitbox covers the central red part, and NOTHING ELSE.
+msgctxt "story/A2_1.sry/2"
+msgid "その当たり判定は真中の赤い部分だけです。"
+msgstr ""
+
+#. 中文: 因此，说极限状态的话，这种情况都不会中弹。
+#. EN: You can graze the bullet as close as shown here, without taking a hit.
+msgctxt "story/A2_1.sry/3"
+msgid "なので、極限の時、こんな状況でも当たらないんですよ。"
+msgstr ""
+
+#. 中文: 接下来就让我们来熟悉一下常用的弹型吧。
+#. EN: Next, we will familiarize ourselves with some common bullet types.
+msgctxt "story/A2_1.sry/4"
+msgid "さて、実戦でよく会う弾の種類を見ていきましょう。"
+msgstr ""
+
+#. 中文: 为了方便大家对判定的认识，在本关卡内所有子弹的判定范围都会显示出来。
+#. EN: As a learning aid, all bullets have their hitboxes marked in this lesson.
+msgctxt "story/A2_1.sry/5"
+msgid "理解しやすくするために、このステージですべての弾幕の当たり判定は表示されます。"
+msgstr ""
+
+#. 中文: 只有中心红色圆圈内才有判定哦。
+#. EN: Remember, only the red center will hit you.
+msgctxt "story/A2_1.sry/6"
+msgid " 当たり判定があるのは中心の赤い部分だけですよ。"
+msgstr ""
+
+#. 中文: 有一些子弹的可视范围和判定范围相差非常大，
+#. EN: Some bullets have hitboxes that are wildly different from their appearances.
+msgctxt "story/A2_2.sry/0"
+msgid "一部の弾幕の可視範囲と当たり判定範囲の相違は非常に激しい"
+msgstr ""
+
+#. 中文: 有时候也会出现一些新的弹型,
+#. EN: Occasionally you may encounter bullet types you haven’t seen before.
+msgctxt "story/A2_2.sry/1"
+msgid "時々新たな弾幕種類も出てきます"
+msgstr ""
+
+#. 中文: 这时大家要记得先摸清子弹的判定范围哦～
+#. EN: You should devote some attention to figuring out their hitboxes, because knowing is half the battle!
+msgctxt "story/A2_2.sry/2"
+msgid "そういう場合は弾の当たり判定に注意してくださいよ～"
+msgstr ""
+
+#. 中文: 激光是一种比较特殊的弹型，其判定范围大家要用心体会哦～
+#. EN: Lasers have hitboxes different from other attacks. You need to learn its peculiarities by practice.
+msgctxt "story/A2_3.sry/0"
+msgid "レーザーはちょっと特殊な弾幕で、その範囲は心して実感するんです"
+msgstr ""
+
+#. 中文: 大致就是这样了，总之只有先认清判定范围才能好好避弹啦。
+#. EN: This concludes the lessons on hitboxes, crucial to any danmaku dodger.
+msgctxt "story/A2_4.sry/0"
+msgid "大体こんな感じですね、とにかく当たり判定をしっかり把握した方が有利です。"
+msgstr ""
+
+#. 中文: 搞不清判定范围的话，永远只有玩玩Easy难度的份哦～
+#. EN: If you want to graduate from the Easy difficulty, learning about them is a must.
+msgctxt "story/A2_4.sry/1"
+msgid "当たり判定がわからなきゃ、いつまでもEasyしかクリアできないですよ～"
+msgstr ""
+
+#. 中文: 另外，自机子弹、敌机、Boss等等也有其特定的判定范围，广大弹幕爱好者们大家自己摸索吧～
+#. EN: Everything has its unique hitbox: your own bullets, common enemies, bosses… Working out the secrets of hitboxes is part of the fun in a danmaku shooter!
+msgctxt "story/A2_4.sry/2"
+msgid "その他、自機が発射する弾、雑魚敵機、ボス自体等もその特定した当たり判定が存在し、そこら辺は自力で模索してみてください。"
+msgstr ""
+
+#. CN/JP conversation count differs (CN 6 / JP 7)
+#. 中文: 从本关开始将介绍弹幕的运动规律哦～
+msgctxt "story/A3_1.sry/0"
+msgid "このステージでは、弾幕の運動パターンについて説明します～"
+msgstr ""
+
+#. CN/JP conversation count differs (CN 6 / JP 7)
+#. 中文: 可能广大初学者朋友觉得弹幕规律什么的很难掌握，但其实当今弹幕游戏都是很有规律的。
+msgctxt "story/A3_1.sry/1"
+msgid "初心者の皆さんは弾幕のパターンなんて把握しにくいと思うかもしれないんですが、"
+msgstr ""
+
+#. CN/JP conversation count differs (CN 6 / JP 7)
+#. 中文: 弹幕的运动规律通常可以分为随机弹、固定弹和自机相关。
+msgctxt "story/A3_1.sry/2"
+msgid "今の弾幕シューティングゲームはほぼパターンというもんが存在します。"
+msgstr ""
+
+#. CN/JP conversation count differs (CN 6 / JP 7)
+#. 中文: 其中，纯粹的随机弹其实很少的。
+msgctxt "story/A3_1.sry/3"
+msgid "弾幕の運動パターンは通常、ランダム弾、固定弾と自機依存弾に分けられます"
+msgstr ""
+
+#. CN/JP conversation count differs (CN 6 / JP 7)
+#. 中文: 那么，先来演示一下什么叫纯粹的随机弹。
+msgctxt "story/A3_1.sry/4"
+msgid "その中に純粋なランダム弾は少ないです"
+msgstr ""
+
+#. CN/JP conversation count differs (CN 6 / JP 7)
+#. 中文: 接招！
+msgctxt "story/A3_1.sry/5"
+msgid "それでは、まず純粋なランダム弾とはどんな感じかを見ていきましょう。"
+msgstr ""
+
+#. CN/JP conversation count differs (CN 6 / JP 7)
+msgctxt "story/A3_1.sry/6"
+msgid "それ！"
+msgstr ""
+
+#. 中文: 纯随机弹由于杂乱无章，因此避弹难度也高，是对玩家反应速度、视野范围、控制精度的综合考验。
+#. EN: True randomized shots are unpredictable and hard to dodge. They comprehensively test your reflex, motor skills, and situational awareness.
+msgctxt "story/A3_2.sry/0"
+msgid "ランダム弾は非常に混乱しているので、ハードルも高く、プレーヤーの反応速度、視野範囲、制御精度に対する総合的テストです。\n"
+msgstr ""
+
+#. 中文: 但也因为画面过于混乱，使得弹幕缺乏美感，因而纯随机弹也很少用到。
+#. EN: However, they are also too chaotic to be visually interesting, and not favored by danmaku games.
+msgctxt "story/A3_2.sry/1"
+msgid "その他、弾幕にも美感は欠かせます。そのため純粋なランダム弾を使うケースは少ないです。"
+msgstr ""
+
+#. 中文: 更多的时候，是在一些固定形状的弹幕或者其他规律的弹幕基础上加入随机因子。
+#. EN: Danmaku designers more often use randomization as a supplementary factor to spice up pre-determined patterns.
+msgctxt "story/A3_2.sry/2"
+msgid "多くの場合は、固定した弾幕あるいは規律的弾幕に基づいてランダム因子を入れます。"
+msgstr ""
+
+#. 中文: 比如这样，形状固定，角度随机。
+#. EN: In this example, each group of bullets is arranged in a fixed pattern, and fired at a randomized angle.
+msgctxt "story/A3_2.sry/3"
+msgid "たとえばこの弾幕、形は固定ですが、角度はランダムです。"
+msgstr ""
+
+#. 中文: 又或者像这样，基础形状固定，在单体速度和方向上随机。
+#. EN: While in this example, you have a fixed general shape, but the exact velocity and direction of each bullet is randomized.
+msgctxt "story/A3_3.sry/0"
+msgid "またこんな感じで、初期の形状は固定ですが、個々の速度と方向はランダムです。 "
+msgstr ""
+
+#. 中文: 很好理解吧～
+#. EN: It's pretty self-evident, isn't it?
+msgctxt "story/A3_4.sry/0"
+msgid "わかりやすいでしょう～？"
+msgstr ""
+
+#. 中文: 顺带一提，在游戏制作中对随机程度的控制是很高深的学问呢～
+#. EN: For game developers, knowing how much randomization the game needs is an art and a science!
+msgctxt "story/A3_4.sry/1"
+msgid "ちなみに、ゲーム制作においてランダム度のコントロールは難しいですよ～"
+msgstr ""
+
+#. 中文: 接下来介绍固定弹。
+#. EN: Next, we shall look at fixed, or static shots.
+msgctxt "story/A4_1.sry/0"
+msgid "続いて固定弾を紹介します。"
+msgstr ""
+
+#. 中文: 所谓固定弹就是既没有随机因素，也与自机无关的弹幕。
+#. EN: The trajectories of fixed shots are neither random, nor calculated based on your position.
+msgctxt "story/A4_1.sry/1"
+msgid "固定弾とは、ランダム要素は一切ない、自機にも無関係な弾幕です。"
+msgstr ""
+
+#. 中文: 固定弹会以固定的形状、固定的周期展开，因此只要摸清规律就可以轻松应对了。
+#. EN: Fired at fixed angles and intervals, they can be easily avoided once you know the pattern.
+msgctxt "story/A4_1.sry/2"
+msgid "固定弾は、固定した形、固定した周期で展開します。なのでパターンさえわかれば楽勝ですよ。"
+msgstr ""
+
+#. 中文: 固定弹也有绝对固定弹和相对固定弹之分。
+#. EN: Some fixed shots have absolute trajectories, always forming the same shapes; some have relative trajectories.
+msgctxt "story/A4_2.sry/0"
+msgid "固定弾にも絶対的固定弾と相対的固定弾の二種類があります。"
+msgstr ""
+
+#. 中文: 所谓相对固定弹，即弹幕相对于发弹点位置固定。
+#. EN: By "relative", I mean their trajectories are only fixed in relation to their sources, not the screen.
+msgctxt "story/A4_2.sry/1"
+msgid "相対的固定弾とは、弾幕自体は固定するが、弾源に依存します。"
+msgstr ""
+
+#. 中文: 当发弹点位置发生改变时，弹幕整体形状发生平移。
+#. EN: As a bullet source moves through the screen, the pattern it shoots out becomes stretched or squeezed.
+msgctxt "story/A4_2.sry/2"
+msgid "弾源の位置が変わった場合、弾幕全体の形は平行移動します。"
+msgstr ""
+
+#. 中文: 对于这种情况，只要保持好自机和发弹点的相对位置关系就好啦～
+#. EN: In such cases, what matters is where you are in relation to the bullet source.
+msgctxt "story/A4_2.sry/3"
+msgid "この状況は、自機と弾源の相対的な位置関係を持てばいいですよ～"
+msgstr ""
+
+#. 中文: 下面来介绍自机狙。
+#. EN: This lesson deals with aimed shots.
+msgctxt "story/A5_1.sry/0"
+msgid "さて、次は自機狙いを紹介します。"
+msgstr ""
+
+#. 中文: 所谓自机狙就是朝自机发射过来的子弹。
+#. EN: As the name indicates, they are directly aimed at the player.
+msgctxt "story/A5_1.sry/1"
+msgid "自機狙いとは、自機に向かってくる弾のことです。"
+msgstr ""
+
+#. 中文: 像这样
+#. EN: Here is an example.
+msgctxt "story/A5_1.sry/2"
+msgid "このように"
+msgstr ""
+
+#. 中文: 面对大量狙的时候绝对不要乱动。
+#. EN: However many bullets are aimed at you, never panic!
+msgctxt "story/A5_2.sry/0"
+msgid "大量な自機狙いがある場合、むやみに動き回ってはいけません。"
+msgstr ""
+
+#. 中文: 尤其大范围移动容易把子弹引乱。
+#. EN: Moving haphazardly will cause aimed shots to spray all over the screen.
+msgctxt "story/A5_2.sry/1"
+msgid "特に広範囲な移動は自機狙いを乱れてしまいます。"
+msgstr ""
+
+#. 中文: 版底微移是应对自机狙的基本方法哦～
+#. EN: To dodge aimed bullets, you must learn to "stream" them - to lead their way using slow and steady movements.
+msgctxt "story/A5_2.sry/2"
+msgid "自機狙い基本的な対応策は最下段で少しづつ移動することです。"
+msgstr ""
+
+#. 中文: 自机狙是对自机的指向性攻击。
+#. EN: Always remember, an aimed shot targets where you were when it was first fired.
+msgctxt "story/A5_3.sry/0"
+msgid "自機狙いは自機への指向的な攻撃です。"
+msgstr ""
+
+#. 中文: 可以产生直接的威胁，却有相当的规律性。
+#. EN: They are a direct threat to your safety, yet also highly predictable.
+msgctxt "story/A5_3.sry/1"
+msgid "直接な脅威を生むが、相当に規律的です。"
+msgstr ""
+
+#. 中文: 只要应对正确的话，就不会出现很混乱的场面了。
+#. EN: Keep a steady hand, and aimed shots will be under your control.
+msgctxt "story/A5_3.sry/2"
+msgid "対応が正しければ、場面が混乱することはありません。"
+msgstr ""
+
+#. 中文: 自机狙也可以推广到自机相关的弹幕。
+#. EN: The lesson from aimed shots can be generalized to other types of player-dependent shots - bullets fired at angles based on your position.
+msgctxt "story/A6_1.sry/0"
+msgid "自機狙いも、自機依存弾の一種として扱えます。"
+msgstr ""
+
+#. 中文: 最典型的就是奇数弹和偶数弹。
+#. EN: Based on the no. of directions in which they are fired, we call them odd or even shots.
+msgctxt "story/A6_1.sry/1"
+msgid "最も典型的なのは奇数弾と偶数弾です。"
+msgstr ""
+
+#. 中文: 首先看奇数弹。
+#. EN: First, odd shots.
+msgctxt "story/A6_1.sry/2"
+msgid "まずは奇数弾ですが"
+msgstr ""
+
+#. 中文: 其实把奇数弹理解成狙就可以了，版底微移应对。
+#. EN: They are essentially the same as aimed shots, which means they can be streamed.
+msgctxt "story/A6_1.sry/3"
+msgid "自機狙いだと理解して構いません、最下段でチョン避けして対応します。"
+msgstr ""
+
+#. 中文: 对于偶数弹，并不是说一圈子弹道数是偶数才叫偶数弹。
+#. EN: "Even shots" actually don't have to be even-numbered.
+msgctxt "story/A6_2.sry/0"
+msgid "偶数弾は、別に弾のway数が偶数だから偶数弾と呼ぶのではなく。"
+msgstr ""
+
+#. 中文: 一般把朝自机偏离一定角度发射过来，必然打偏的都可以叫偶数弹。
+#. EN: The term covers all patterns where all bullets are aimed at an angle away from you.
+msgctxt "story/A6_2.sry/1"
+msgid "一般的には自機に対して一定角度を逸らして打ってくきます。このように必ず当たらないのは偶数弾と呼びます。"
+msgstr ""
+
+#. 中文: 当然奇数弹的子弹道数也不一定是奇数。
+#. EN: Similarly, "odd shots" don't have to be literally so.
+msgctxt "story/A6_2.sry/2"
+msgid "当然奇数弾の弾way数も必ずし奇数とは限らないです。"
+msgstr ""
+
+#. 中文: 总之，面对偶数弹，原地不动就不会死...
+#. EN: If you don't move, even shots aren't going to kill you.
+msgctxt "story/A6_2.sry/3"
+msgid "とにかく、偶数弾には、じっとしていれば死なないです…"
+msgstr ""
+
+#. 中文: 在面对大量子弹的时候，如果能分清奇数弹和偶数弹，会大大降低难度哦～
+#. EN: Your fight will be much easier if you can tell odd and even shots apart.
+msgctxt "story/A6_3.sry/0"
+msgid "大量な弾がある場合、奇数弾か偶数弾かさえ分かれば、難易度は大きく下がりますよ"
+msgstr ""
+
+#. 中文: 一般情况下，只躲奇数弹，忽略偶数弹。
+#. EN: Usually, you want to dodge odd shots, and leave even shots be.
+msgctxt "story/A6_3.sry/1"
+msgid "普通は、奇数弾のみを避け、偶数弾を無視します。"
+msgstr ""
+
+#. 中文: 偶数弹由于不产生直接杀伤，因此也很少单独出现，常常配合随机弹和自机狙组成组合弹幕。
+#. EN: Because even shots do not directly threaten you, they seldom appear alone.
+msgctxt "story/A7_1.sry/0"
+msgid "偶数弾は直接な脅威がないから、普通は単独で出てきません。よくランダム弾や自機狙いと組み合わせして撃ってきます。"
+msgstr ""
+
+#. 中文: 由偶数弹进行封位，由随机弹或自机狙来产生杀伤。
+#. EN: More often, they play a supporting role to randomized or aimed shots by blocking your way.
+msgctxt "story/A7_1.sry/1"
+msgid "偶数弾で移動範囲を制限し、ランダム弾や自機狙いを使って攻撃します。"
+msgstr ""
+
+#. 中文: 但是也不要因此小看偶数弹哦，单纯的偶数弹也可以形成富有冲击力的视觉效果。
+#. EN: They are far from useless; a designer can draw striking patterns using only even shots.
+msgctxt "story/A7_1.sry/2"
+msgid "ですが偶数弾をなめないでくださいよ，単なる偶数弾でもインパクトがある視覚効果を作れます。"
+msgstr ""
+
+#. 中文: 那么，
+#. EN: Well then…
+msgctxt "story/A7_1.sry/3"
+msgid "それでは"
+msgstr ""
+
+#. 中文: 来玩一下吧。
+#. EN: How about testing it out?
+msgctxt "story/A7_1.sry/4"
+msgid "やってみましょう"
+msgstr ""
+
+#. 中文: 注意，不要动哟～
+#. EN: Keep in mind, you are not supposed to move!
+msgctxt "story/A7_1.sry/5"
+msgid "あ、動かないでくださいね～"
+msgstr ""
+
+#. 中文: 运动控制精度是每个STG玩家的必修项目。
+msgctxt "story/B1.sry/0"
+msgid "コントロールの精度はSTGプレーヤーの必修科目です。"
+msgstr ""
+
+#. 中文: 如何在高密度的弹幕里精确控制自机可是非常有学问的。
+msgctxt "story/B1.sry/1"
+msgid "如何に高密度の弾幕の中で、自機を精確にコントロールするのか。これは非常に奥が深い問題です。"
+msgstr ""
+
+#. 中文: 这里再提一下STG的发展历史。
+msgctxt "story/B1.sry/2"
+msgid "ここでもうすこしSTGゲームの発展歴史の話をします。"
+msgstr ""
+
+#. 中文: 在早期STG游戏中，自机的斜向运动速度是两个横竖放向运动速度的叠加。也就是说斜方向的运动速度其实是横竖方向速度的1.4倍。
+msgctxt "story/B1.sry/3"
+msgid "早期のSTGゲームでは、自機の斜めの運動速度は横方向＋縦方向の運動速度で、つまり、斜めの運動速度は横、縦の1.4倍になります。"
+msgstr ""
+
+#. 中文: 这种在程序里很好实现，但是实际中却很不合理嘛。
+msgctxt "story/B1.sry/4"
+msgid "プログラム的には便利ですが、実際は合理的ではないですね？"
+msgstr ""
+
+#. 中文: 于是，随着STG的发展，逐渐淘汰了这种做法，而使斜方向运动速度与横竖方向相等。
+msgctxt "story/B1.sry/5"
+msgid "なので発展につれて、このようなやり方は淘汰され、斜めの運動速度は横縦と同じになりました。"
+msgstr ""
+
+#. 中文: 然而这又引来了另一个问题，也就是自机的贴版边移动。
+msgctxt "story/B1.sry/6"
+msgid "ですがこれはもう一つの問題が生じました。それは最下段や左端右端にくっついて移動することです。"
+msgstr ""
+
+#. 中文: 比如自机在版底，按住下并且左右移动。自机受到版边阻挡，无法向下移动，但自机的速度方向却是斜向下的。
+msgctxt "story/B1.sry/7"
+msgid "たとえば、自機は最下段にいて、↓を押し続いて左右移動する場合、自機はもう下へは行けないが、移動速度は斜め下の移動速度です。"
+msgstr ""
+
+#. 中文: 于是速度沿水平方向的分量会变成单纯左右移动时候的0.7倍。
+msgctxt "story/B1.sry/8"
+msgid "つまり、この時の移動速度は普通の左右移動の0.7倍になります。"
+msgstr ""
+
+#. 中文: 这样就可以获得比正常更低的运动速度，从而提高操作精度。
+msgctxt "story/B1.sry/9"
+msgid "そうすることで、いつもより低い運動速度が得られ、操作の精度をアップします。"
+msgstr ""
+
+#. 中文: 这种技巧通常叫作贴版微移或者超微移，是STG高手必然掌握的技巧哦～
+msgctxt "story/B1.sry/10"
+msgid "このテクニックは超低速とよばれ、達人への必修科目ですよ～"
+msgstr ""
+
+#. 中文: 顺带一提，手柄玩家如果使用圆形方向键的手柄也是可以做出这种技巧的。
+msgctxt "story/B1.sry/11"
+msgid "ちなみにゲームパッドを使うプレーヤーでも、移動キーは円形であればこのテクニックを使えますよ。"
+msgstr ""
+
+#. 中文: 那么，来试一下吧～
+msgctxt "story/B1.sry/12"
+msgid "それでは、試してみましょう"
+msgstr ""
+
+#. 中文: 下面介绍自机狙的应对策略。
+#. EN: This lesson continues our lecture on aimed shots.
+msgctxt "story/B2.sry/0"
+msgid "続いて自機狙いの対応策を紹介します。"
+msgstr ""
+
+#. 中文: 版底微移当然是应对自机狙的一般方法。
+#. EN: Streaming and border-tapping are the foundation of beating aimed shots.
+msgctxt "story/B2.sry/1"
+msgid "もちろんチョン避けは最も一般的な対応策です。"
+msgstr ""
+
+#. 中文: 但是面对大量连续狙的时候，仅仅靠版底微移是不够的，往往需要折返。
+#. EN: However, when the enemy is firing an unbroken line of bullets, streaming alone is not enough. You also need to "restream".
+msgctxt "story/B2.sry/2"
+msgid "ですが大量かつ連続の自機狙に遭うとき、チョン避けだけではだめです、切り返しが必要です。"
+msgstr ""
+
+#. 中文: 折返的基本动作是往一个方向移动一大步，以进行引弹，然后反方向微移。
+#. EN: Restreaming involves misdirecting the bullets by making a large movement, allowing you to start a new streaming process towards the opposite direction.
+msgctxt "story/B2.sry/3"
+msgid "切り返しの基本は、ある方向に大範囲移動して弾を誘導します、その後逆方向にチョン避けすることです。"
+msgstr ""
+
+#. 中文: 这也是一个非常重要的技巧哦～
+#. EN: It is another essential technique.
+msgctxt "story/B2.sry/4"
+msgid "これも非常に重要なテクニックですよ～"
+msgstr ""
+
+#. 中文: 折返的基本动作是这样，
+#. EN: To restream, do the following.
+msgctxt "story/B2_2.sry/0"
+msgid "切り返しの基本動作はこうです。"
+msgstr ""
+
+#. 中文: 在单方向微移过程中看准弹幕间歇的时机，突然高速移动一大步，
+#. EN: When you are streaming in one direction, make a sudden, large movement, to tear open a gap you can pass through…
+msgctxt "story/B2_2.sry/1"
+msgid "ある方向へのチョン避け過程で、弾幕発射のタイミングを見極めて、突然大範囲的に移動します。"
+msgstr ""
+
+#. 中文: 然后反方向微移。
+#. EN: Then start streaming in the other direction.
+msgctxt "story/B2_2.sry/2"
+msgid "そのあと逆方向へ向かってまたチョン避けを始めます。"
+msgstr ""
+
+#. 中文: 这个技巧很重要，初学者要多加练习哦～
+#. EN: If you are new to danmaku, this is a technique you must practice often.
+msgctxt "story/B2_2.sry/3"
+msgid "このテクニックは重要ですから、初心者の皆さんは練習した方がいいですよ～"
+msgstr ""
+
+#. 中文: 有时候自机狙的子弹成排状或是子弹判定范围很大，这种时候就不适合用微移的方法躲避了。
+#. EN: Some aimed bullets are fanned out too widely, or have large hitboxes. Streaming may not be the right move for them.
+msgctxt "story/B3.sry/0"
+msgid "自機狙いの範囲が広く、また弾のあたり判定範囲が広い場合、チョン避けだけでは対応しきれなくなります。"
+msgstr ""
+
+#. 中文: 面对这种情况，可以考虑用绕圈的方法。
+#. EN: In such cases, you should consider circling the enemy.
+msgctxt "story/B3.sry/1"
+msgid "このような状況には、回転という方法を使いましょう。"
+msgstr ""
+
+#. 中文: 至于怎么绕圈，下面给个极端点的例子好了...
+#. EN: Here is a somewhat extreme example of a circling move.
+msgctxt "story/B3.sry/2"
+msgid "具体的には…そうですね…極端的な例を挙げましょう。"
+msgstr ""
+
+#. 中文: 大型弹幕往往会把随机弹、固定弹、自机狙等混合使用。
+#. EN: An advanced danmaku pattern often mixes randomized, fixed, and aimed shots.
+msgctxt "story/B4.sry/0"
+msgid "複雑な弾幕はいつもランダム弾、固定弾、自機狙いを組み合わせして使います。"
+msgstr ""
+
+#. 中文: 在遇到大量子弹的时候，记得先摸清弹幕的原理，然后就好应对了。
+#. EN: When faced with hundreds of bullets, your life will be a lot easier if you can identify what kinds of attacks you are getting.
+msgctxt "story/B4.sry/1"
+msgid "大量な弾に遭う時、弾幕の性質を把握できれば、対応しやすくなります。"
+msgstr ""
+
+#. 中文: 下面演示一下固定弹与自机狙的组合。
+#. EN: Here I will demonstrate a combo of fixed and aimed patterns.
+msgctxt "story/B4.sry/2"
+msgid "では固定弾と自機狙いの組み合わせを見ていきましょう。"
+msgstr ""
+
+#. 中文: 通常这种情况要认清固定弹的轨迹，然后集中精力躲自机狙哦～
+#. EN: For such combos, you should recognize the fixed pattern, before concentrating on the aimed shots.
+msgctxt "story/B4.sry/3"
+msgid "この場合は、固定弾の軌跡をしっかり見て、そして自機狙いに集中して避けるのですよ。"
+msgstr ""
+
+#. 中文: 下面演示一下随机弹与自机狙的组合。
+#. EN: This lesson demonstrates a combo of randomized and aimed patterns.
+msgctxt "story/B5.sry/0"
+msgid "次はランダム弾と自機狙いの組み合わせです。"
+msgstr ""
+
+#. 中文: 由于受到了随机弹封位，不能安心的躲避自机狙了。
+#. EN: The randomized bullets apply a pressure, forcing you to deal with them in addition to dodging aimed shots.
+msgctxt "story/B5.sry/1"
+msgid "ランダム弾の邪魔を受け、安心して自機狙いを避けることができないです。"
+msgstr ""
+
+#. 中文: 与之前固定弹与自机狙的组合不同，随机弹不能靠记忆及固定走位来降低威胁。
+#. EN: Unlike the fixed+aimed combo before, you cannot mitigate the danger of stray bullets by memorizing a fixed path.
+msgctxt "story/B5.sry/2"
+msgid "前の固定弾と自機狙いの組み合わせとは違い、ランダム弾に対して、記憶や固定パターンが通じません。"
+msgstr ""
+
+#. 中文: 因此必须同时躲避随机弹与自机狙两重威胁，所以这种组合还是相当有难度的。
+#. EN: Both randomized and aimed shots are constant threats, which make the combo difficult.
+msgctxt "story/B5.sry/3"
+msgid "なのでランダム弾と自機狙いのダブル脅威を同時に避けなければならないんです。相当難易度が高い組み合わせです。"
+msgstr ""
+
+#. 中文: 通常的应对方法，除了掌握自机狙的基本应对策略外，剩下的就是
+#. EN: Other than the basic aimed-shot techniques, all you gotta do is:
+msgctxt "story/B5.sry/4"
+msgid "一般的な対応方法は、自機狙いの基本対応策を把握して…後は…"
+msgstr ""
+
+#. 中文: 爆底力吧！
+#. EN: Steel yourself, and improvise!
+msgctxt "story/B5.sry/5"
+msgid "気合避けですね！"
+msgstr ""
+
+#. 中文: 其实，单纯的自机狙加自机狙或者奇数弹加奇数弹也是可以玩出很多花样的。
+#. EN: Designers can achieve myriad effects with nothing but aimed+aimed or odd+odd combos.
+msgctxt "story/B6.sry/0"
+msgid "実は、単純な自機狙い＋自機狙いあるいは奇数弾＋奇数弾にもいっぱい鮮やかな弾幕を作れます。"
+msgstr ""
+
+#. 中文: 比如下面演示多段速的自机狙。
+#. EN: For an example, see this demonstration of aimed shots at variable speeds.
+msgctxt "story/B6.sry/1"
+msgid "例えばこの速度が異なる自機狙いはどうですか"
+msgstr ""
+
+#. 中文: 如果要说有什么避弹诀窍的话，
+#. EN: If there's any trick to the pattern…
+msgctxt "story/B6.sry/2"
+msgid "コツというと…"
+msgstr ""
+
+#. 中文: 就是要找到一个节奏吧～
+#. EN: It's that it has a rhythm that you must learn to follow.
+msgctxt "story/B6.sry/3"
+msgid "リズムを作ることでしょう～"
+msgstr ""
+
+#. 中文: 在某些弹幕中，会存在一些特殊的位置，站在这些位置上就怎么也不会被子弹打中。
+msgctxt "story/B7.sry/0"
+msgid "ある弾幕の中で、特殊な位置が存在し、それらの位置にいると絶対に当たらなくなります。"
+msgstr ""
+
+#. 中文: 这些位置就被称为安定点。
+msgctxt "story/B7.sry/1"
+msgid "それらの位置は安全地帯（安地）と呼ばれています。"
+msgstr ""
+
+#. 中文: 通常在固定弹中很容易出现安定点，毕竟子弹运动轨迹都一定的，不能覆盖整个屏幕也很正常么。
+msgctxt "story/B7.sry/2"
+msgid "一般的に固定弾で出やすいです、弾の運動が一定的で、画面全体をカバーできないからです。"
+msgstr ""
+
+#. 中文: 当然在固定弹中再加点偶数弹也是一样。
+msgctxt "story/B7.sry/3"
+msgid "当然、固定弾に偶数弾を加えても同じです。"
+msgstr ""
+
+#. 中文: 安定通常都不会很明显，需要玩家自己发现。
+msgctxt "story/B7.sry/4"
+msgid "安地は普通そんなに目立たないんで、見つけ出せるかどうかはプレーヤー次第ですね。"
+msgstr ""
+
+#. 中文: 有点安定点简直就是像游戏bug一样的存在。
+msgctxt "story/B7.sry/5"
+msgid "場合によって安地はバグみたいな存在になります。"
+msgstr ""
+
+#. 中文: 在高难度的游戏中，如果能够发现一两个安定点，无疑会降低不少压力。
+msgctxt "story/B7.sry/6"
+msgid "難易度高いゲームでは、一つや二つの安地を見つけ出せば、攻略にも相当な助けになるでしょう"
+msgstr ""
+
+#. 中文: 下面举个版顶安定的例子好了。
+msgctxt "story/B7.sry/7"
+msgid "画面の最上段が安地になる例を見てみましょう。"
+msgstr ""
+
+#. 中文: 下面介绍交叉弹。
+msgctxt "story/B8.sry/0"
+msgid "次は交差弾を紹介します。"
+msgstr ""
+
+#. 中文: 所谓交叉弹也就是从两个方向射来的子弹。
+msgctxt "story/B8.sry/1"
+msgid "交差弾とは即ち二つ違った方向から打ってくる弾のことです。"
+msgstr ""
+
+#. 中文: 面对交叉弹也就意味着同时面对两重威胁。
+msgctxt "story/B8.sry/2"
+msgid "つまり二つ違った方向からプレッシャーが来ます。"
+msgstr ""
+
+#. 中文: 躲避交叉弹的要点是尽量不要一次性穿过两个方向的子弹，或者说不要被动的躲避，而要有意识的主动穿弹。
+msgctxt "story/B8.sry/3"
+msgid "交差弾の要領は同時に避けないことです。あるいは、被動的に避けるではなく、自らよけに向かうのです。"
+msgstr ""
+
+#. 中文: 每次只穿过一波子弹，每次只面对一重威胁，这样难度也就降低了。
+msgctxt "story/B8.sry/4"
+msgid "そうすることで弾を分解し、難易度も下げられます。"
+msgstr ""
+
+#. 中文: 面对交叉弹的时候，不管左右交叉、上下交叉还是斜向交叉，都要有主动穿弹的意识哦～
+msgctxt "story/B8.sry/5"
+msgid "交差弾を前にする時、上下、左右、斜めに関わらず、自ら避けに行く意識を持ってくださいね～"
+msgstr ""
+
+#. 中文: 另外说点题外话，从弹幕生成原理讲，现成交叉弹的方法大致有以下几种：
+msgctxt "story/B8.sry/6"
+msgid "ちなみに、弾幕の生成から言うと、現在にある交差弾の生成方法は以下の何種類があります。"
+msgstr ""
+
+#. 中文: 多发弹点、单发弹点运动、子弹半路变向、反弹弹。
+msgctxt "story/B8.sry/7"
+msgid "弾源が複数ある、一つの弾源が運動する、途中から弾の方向を変える、最下段などに当たると反射する弾などがあります。"
+msgstr ""
+
+#. 中文: 有兴趣制作弹幕的朋友可以了解一下啦～
+msgctxt "story/B8.sry/8"
+msgid "弾幕制作に興味がある方は是非やってみてください～"
+msgstr ""
+
+#. 中文: 不过不管交叉弹怎么交叉，一般都不会同时出现3个方向以上的子弹同时袭来。
+msgctxt "story/B8.sry/9"
+msgid "まあ、交差弾がどんなに交差しても、同時に3つの方向から弾が襲ってこないはずです。"
+msgstr ""
+
+#. 中文: 毕竟要同时处理3种以上的威胁会让人抓狂的啦...
+msgctxt "story/B8.sry/10"
+msgid "さすがに同時に3つ以上を処理するのは…狂ってしまいます…多分。"
+msgstr ""
+
+#. 中文: 在面对这种波状交叉弹的时候，
+#. EN: For the waving interwoven shots in this example…
+msgctxt "story/B8_2.sry/0"
+msgid "このような波状交差弾を避ける場合"
+msgstr ""
+
+#. 中文: 如果一直呆着中间躲的话，就不得不同时面对三方向的子弹。
+#. EN: Staying in the middle section exposes you to bullets from three directions.
+msgctxt "story/B8_2.sry/1"
+msgid "もしずっと真ん中で避けると、三つの方向からの弾を同時に処理しなければなりません。"
+msgstr ""
+
+#. 中文: 因此要主动向一边移动，将子弹分批穿过，每次只穿一波子弹。
+#. EN: The solution is to move to one side, cross them one wave at a time.
+msgctxt "story/B8_2.sry/2"
+msgid "なので、自らある方へ移動すれば、弾を分解して避けることができます。"
+msgstr ""
+
+#. 中文: 这样难度就可以大幅降低了哦～
+#. EN: This can drastically reduce its difficulty.
+msgctxt "story/B8_2.sry/3"
+msgid "これで難易度を大幅に下げますよ～"
+msgstr ""
+
+#. 中文: 基础教学部分就差不多要告一段落了。
+#. EN: We are now nearing the end of Basic Danmaku Tutorial.
+msgctxt "story/B9.sry/0"
+msgid "それでは、基礎的な紹介はこれで終わりです。"
+msgstr ""
+
+#. 中文: 最后让我们综合的练习一下吧。
+#. EN: For the last lesson, let’s try an integrated practice.
+msgctxt "story/B9.sry/1"
+msgid "最後に、総合的な練習をしてみましょう。"
+msgstr ""
+
+#. 中文: 那么
+#. EN: Are you ready?
+msgctxt "story/B9.sry/2"
+msgid "ではでは"
+msgstr ""
+
+#. 中文: 。。。。。。
+#. EN: ......
+msgctxt "story/B9.sry/3"
+msgid "。。。。。。"
+msgstr ""
+
+#. 中文: 金吉拉
+msgctxt "chara"
+msgid "チンチラ"
+msgstr ""

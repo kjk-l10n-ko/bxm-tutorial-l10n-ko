@@ -185,13 +185,68 @@
   "kind": "term"
  },
  {
-  "term": "Basic Danmaku Tutorial",
-  "ko": "기초 교육편",
+  "term": "弾幕",
+  "ko": "탄막",
+  "kind": "term"
+ },
+ {
+  "term": "当たり判定",
+  "ko": "피격 판정",
+  "kind": "term"
+ },
+ {
+  "term": "自機狙い",
+  "ko": "조준탄",
+  "kind": "term"
+ },
+ {
+  "term": "奇数弾",
+  "ko": "홀수탄",
+  "kind": "term"
+ },
+ {
+  "term": "偶数弾",
+  "ko": "짝수탄",
+  "kind": "term"
+ },
+ {
+  "term": "ランダム弾",
+  "ko": "랜덤탄",
+  "kind": "term"
+ },
+ {
+  "term": "固定弾",
+  "ko": "고정탄",
+  "kind": "term"
+ },
+ {
+  "term": "レーザー",
+  "ko": "레이저",
+  "kind": "term"
+ },
+ {
+  "term": "グレイズ",
+  "ko": "그레이즈",
+  "kind": "term"
+ },
+ {
+  "term": "チョン避け",
+  "ko": "스트리밍",
+  "kind": "term"
+ },
+ {
+  "term": "切り返し",
+  "ko": "리스트리밍",
   "kind": "term"
  },
  {
   "term": "streaming",
   "ko": "스트리밍",
+  "kind": "term"
+ },
+ {
+  "term": "restreaming",
+  "ko": "리스트리밍",
   "kind": "term"
  }
 ]
