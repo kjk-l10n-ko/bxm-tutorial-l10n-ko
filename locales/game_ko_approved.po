@@ -33,7 +33,7 @@ msgstr "그럼 먼저 피격 판정부터 시작해 볼까요～"
 #, fuzzy
 msgctxt "story/A1.sry/4"
 msgid "STG、即ちShooting Gameとして、一番メインな要素は弾幕を避けることです。"
-msgstr "슈팅 게임, 그러니까 Shooting Game에서 가장 핵심 요소는 탄막을 피하는 거예요."
+msgstr "슈팅 게임에서 가장 핵심 요소는 탄막을 피하는 거예요."
 
 #. 中文: 不管怎样，只要不被打中就好了。
 #, fuzzy
@@ -162,7 +162,7 @@ msgstr "그럼 실전에서 자주 보는 탄의 종류를 살펴볼까요."
 #, fuzzy
 msgctxt "story/A2_1.sry/5"
 msgid "理解しやすくするために、このステージですべての弾幕の当たり判定は表示されます。"
-msgstr "이해하기 쉽게, 이 스테이지에서는 모든 탄막의 피격 판정이 표시돼요."
+msgstr "이해하기 쉽게, 이 스테이지에서는 모든 탄막의 피격 판정을 보여 줘요."
 
 #. 中文: 只有中心红色圆圈内才有判定哦。
 #. EN: Remember, only the red center will hit you.
