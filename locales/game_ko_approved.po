@@ -9,7 +9,7 @@ msgstr ""
 #, fuzzy
 msgctxt "story/A1.sry/0"
 msgid "Hello, and welcome to Barrage Musical: Basic Danmaku Tutorial! "
-msgstr "안녕하세요, <i>탄막 뮤지컬: 기초 교육편</i>에 오신 것을 환영해요! "
+msgstr "안녕하세요, 탄막 뮤지컬: 기초 교육편에 오신 것을 환영해요! "
 
 #. 중국어 파일 대화 수 다름 (EN 21 / CN 19)
 #, fuzzy
