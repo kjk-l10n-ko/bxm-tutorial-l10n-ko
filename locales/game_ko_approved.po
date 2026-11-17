@@ -1460,7 +1460,7 @@ msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#113"
 msgid ""
 "Hitboxes are shown on all bullets during the lesson. Good to know even if "
 "you are a danmaku expert."
-msgstr "이 스테이지에서는 모든 탄에 피격 판정이 표시됩니다. 탄막 게임에 익숙해도 알아두면 좋을 거예요."
+msgstr "이 스테이지에서는 모든 탄의 피격 판정을 보여 줍니다. 탄막 게임에 익숙해도 알아두면 좋을 거예요."
 
 #. 중국어: <size=+12>随机弹介绍</size>
 #. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
