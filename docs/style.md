@@ -17,5 +17,5 @@
 - focus (slow movement) → 저속 이동, graze → 그레이즈, bomb → 봄, spell card → 스펠 카드
 - aimed shot / player-aimed → 조준탄, odd-numbered / even-numbered shots → 홀수탄 / 짝수탄
 - randomized shot → 랜덤탄, fixed shot → 고정탄, laser → 레이저, barrage → 탄막
-- streaming → 흘리기, tapping → 끊어 피하기 (원문이 이 개념을 쓸 때)
+- streaming → 스트리밍, tapping → 끊어 피하기 (원문이 이 개념을 쓸 때)
 - ChinChilla → 친칠라, Lightsaber Fairy → 광선검 요정, Beryl → 베릴

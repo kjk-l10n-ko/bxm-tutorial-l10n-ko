@@ -188,5 +188,10 @@
   "term": "Basic Danmaku Tutorial",
   "ko": "기초 교육편",
   "kind": "term"
+ },
+ {
+  "term": "streaming",
+  "ko": "스트리밍",
+  "kind": "term"
  }
 ]

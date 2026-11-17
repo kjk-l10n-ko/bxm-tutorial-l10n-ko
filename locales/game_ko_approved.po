@@ -433,7 +433,7 @@ msgctxt "story/A5_2.sry/2"
 msgid ""
 "To dodge aimed bullets, you must learn to \"stream\" them - to lead their "
 "way using slow and steady movements."
-msgstr "조준탄을 피하려면 ‘흘리기’를 배워야 해요. 천천히 꾸준히 움직여서 탄을 유도하는 거죠."
+msgstr "조준탄을 피하려면 ‘스트리밍’을 배워야 해요. 천천히 꾸준히 움직여서 탄을 유도하는 거죠."
 
 #. 중국어: 自机狙是对自机的指向性攻击。
 #, fuzzy
@@ -483,7 +483,7 @@ msgctxt "story/A6_1.sry/3"
 msgid ""
 "They are essentially the same as aimed shots, which means they can be "
 "streamed."
-msgstr "기본적으로 조준탄과 같아서, 흘리기로 대응할 수 있어요."
+msgstr "기본적으로 조준탄과 같아서, 스트리밍으로 대응할 수 있어요."
 
 #. 중국어: 对于偶数弹，并不是说一圈子弹道数是偶数才叫偶数弹。
 #, fuzzy
@@ -680,7 +680,7 @@ msgstr "이번 시간에는 조준탄 대처법에 이어서 강의를 진행할
 msgctxt "story/B2.sry/1"
 msgid ""
 "Streaming and border-tapping are the foundation of beating aimed shots."
-msgstr "흘리기와 판정 끝 끊어 피하기는 조준탄을 피하는 기본이에요."
+msgstr "스트리밍과 판정 끝 끊어 피하기는 조준탄을 피하는 기본이에요."
 
 #. 중국어: 但是面对大量连续狙的时候，仅仅靠版底微移是不够的，往往需要折返。
 #, fuzzy
@@ -688,7 +688,7 @@ msgctxt "story/B2.sry/2"
 msgid ""
 "However, when the enemy is firing an unbroken line of bullets, streaming "
 "alone is not enough. You also need to \"restream\".\n"
-msgstr "하지만 적이 끊임없이 일직선으로 탄을 쏟아 낸다면 흘리기만으로는 부족해요. 그럴 때 필요한 게 바로 \"되돌리기\"예요.\n"
+msgstr "하지만 적이 끊임없이 일직선으로 탄을 쏟아 낸다면 스트리밍만으로는 부족해요. 그럴 때 필요한 게 바로 \"되돌리기\"예요.\n"
 
 #. 중국어: 折返的基本动作是往一个方向移动一大步，以进行引弹，然后反方向微移。
 #, fuzzy
@@ -697,7 +697,7 @@ msgid ""
 "Restreaming involves misdirecting the bullets by making a large movement, "
 "allowing you to start a new streaming process towards the opposite "
 "direction.  "
-msgstr "되돌리기는 크게 움직여 탄을 다른 곳으로 유도한 뒤, 반대 방향으로 새로운 흘리기를 시작하는 거예요.  "
+msgstr "되돌리기는 크게 움직여 탄을 다른 곳으로 유도한 뒤, 반대 방향으로 새로운 스트리밍을 시작하는 거예요.  "
 
 #. 중국어: 这也是一个非常重要的技巧哦～
 #, fuzzy
@@ -717,13 +717,13 @@ msgctxt "story/B2_2.sry/1"
 msgid ""
 "When you are streaming in one direction, make a sudden, large movement, to "
 "tear open a gap you can pass through…"
-msgstr "한 방향으로 흘리다가 탄막 사이에 틈이 생기는 순간을 노려, 갑자기 크게 움직여 지나갈 틈을 열고…"
+msgstr "한 방향으로 스트리밍하다가 탄막 사이에 틈이 생기는 순간을 노려, 갑자기 크게 움직여 지나갈 틈을 열고…"
 
 #. 중국어: 然后反方向微移。
 #, fuzzy
 msgctxt "story/B2_2.sry/2"
 msgid "Then start streaming in the other direction."
-msgstr "그다음 반대 방향으로 흘리기를 시작해요."
+msgstr "그다음 반대 방향으로 스트리밍을 시작해요."
 
 #. 중국어: 这个技巧很重要，初学者要多加练习哦～
 #, fuzzy
@@ -738,7 +738,7 @@ msgctxt "story/B3.sry/0"
 msgid ""
 "Some aimed bullets are fanned out too widely, or have large hitboxes. "
 "Streaming may not be the right move for them."
-msgstr "조준탄 중에는 부채꼴로 너무 넓게 퍼지거나 피격 판정이 큰 탄도 있어요. 그런 탄에는 흘리기가 맞지 않을 수 있죠."
+msgstr "조준탄 중에는 부채꼴로 너무 넓게 퍼지거나 피격 판정이 큰 탄도 있어요. 그런 탄에는 스트리밍이 맞지 않을 수 있죠."
 
 #. 중국어: 面对这种情况，可以考虑用绕圈的方法。
 #, fuzzy
@@ -1653,7 +1653,7 @@ msgstr "해금: A-7 클리어"
 #, fuzzy
 msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#125"
 msgid "<size=+12>Reacting to Aimed Shots: Restreaming</size>\r\n"
-msgstr "<size=+12>조준탄 대응: 되돌아 흘리기</size>\r\n"
+msgstr "<size=+12>조준탄 대응: 되돌아 스트리밍</size>\r\n"
 
 #. 중국어: 开启条件：通过B-1，损失不超过1残
 #. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
