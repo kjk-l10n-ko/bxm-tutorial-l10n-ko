@@ -1,6 +1,6 @@
-# Barrage Musical ~Basic Danmaku Tutorial~ 한글 패치 (v1.02) (2026-11-17)
+# Barrage Musical \~Basic Danmaku Tutorial\~ 한글 패치 (v1.02) (2026-11-17)
 
-게임 **Barrage Musical ~Basic Danmaku Tutorial~**(Steam, v1.02)의 비공식 한글 패치입니다.
+게임 **Barrage Musical \~Basic Danmaku Tutorial\~**(Steam, v1.02)의 비공식 한글 패치입니다.
 
 * 검수: 김작가
 * 작업/번역: Claude (AI 번역)

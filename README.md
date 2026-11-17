@@ -1,4 +1,4 @@
-# Barrage Musical ~Basic Danmaku Tutorial~ 한글 패치 (2026-11-17)
+# Barrage Musical \~Basic Danmaku Tutorial\~ 한글 패치 (2026-11-17)
 
 * 검수: 김작가
 * 작업/번역: Claude (AI 번역)
