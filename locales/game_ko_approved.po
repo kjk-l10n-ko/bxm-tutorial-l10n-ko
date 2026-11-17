@@ -33,7 +33,7 @@ msgstr "그럼 먼저 피격 판정부터 시작해 볼까요～"
 #, fuzzy
 msgctxt "story/A1.sry/4"
 msgid "STG、即ちShooting Gameとして、一番メインな要素は弾幕を避けることです。"
-msgstr "슈팅 게임, 그러니까 Shooting Game에서 가장 핵심 요소는 탄막을 피하는 거예요."
+msgstr "샷 게임, 그러니까 Shooting Game에서 가장 핵심 요소는 탄막을 피하는 거예요."
 
 #. 中文: 不管怎样，只要不被打中就好了。
 #, fuzzy
@@ -51,13 +51,13 @@ msgstr "그런데 “맞는다”는 데에는 여러 규칙이 있어서,"
 #, fuzzy
 msgctxt "story/A1.sry/7"
 msgid "弾が自機のドット絵に接触しただけでは当たらないんです。"
-msgstr "탄이 자기 기체 도트 그림에 닿았다고 해서 맞는 건 아니에요."
+msgstr "탄이 내 기체 도트 그림에 닿았다고 해서 맞는 건 아니에요."
 
 #. 中文: 当按住低速键（默认为左Shift键）时，自机上会显示出判定点。
 #, fuzzy
 msgctxt "story/A1.sry/8"
 msgid "低速キー（左Shiftキー）を押したら、自機上には判定が現れ。"
-msgstr "저속 키(왼쪽 Shift 키)를 누르면 자기 기체 위에 피격 판정이 나타나고,"
+msgstr "저속 키(왼쪽 Shift 키)를 누르면 내 기체 위에 피격 판정이 나타나고,"
 
 #. 中文: 只有中心判定点与子弹接触才算中弹哦。
 #, fuzzy
@@ -75,7 +75,7 @@ msgstr "어때요? 작죠～"
 #, fuzzy
 msgctxt "story/A1.sry/11"
 msgid "実際、自機だけではなく、弾幕の判定も見える範囲より小さいです。"
-msgstr "실제로는 자기 기체뿐만 아니라 탄막의 판정도 보이는 범위보다 작아요."
+msgstr "실제로는 내 기체뿐만 아니라 탄막의 판정도 보이는 범위보다 작아요."
 
 #. 中文: 所以会出现很多看似中弹，其实没中弹的情况。
 #, fuzzy
@@ -87,19 +87,19 @@ msgstr "그래서 겉보기엔 탄막에 맞은 것 같은데 실제로는 무�
 #, fuzzy
 msgctxt "story/A1.sry/13"
 msgid "すこしSTGの歴史を話しましょう。"
-msgstr "잠깐 슈팅 게임의 역사를 이야기해 볼게요."
+msgstr "잠깐 샷 게임의 역사를 이야기해 볼게요."
 
 #. 中文: 在早期STG中，无论自机还是子弹的判定范围都和可视范围差不多，而且弹速快，随机性强。
 #, fuzzy
 msgctxt "story/A1.sry/14"
 msgid "早期のSTGでは、自機と弾の当たり判定は見える範囲とほぼ同じで、スピードが速く、ランダム性も強い"
-msgstr "옛날 슈팅 게임에서는 자기 기체와 탄의 피격 판정이 보이는 범위와 거의 같았고, 속도도 빠르고 랜덤성도 강했어요"
+msgstr "옛날 샷 게임에서는 내 기체와 탄의 피격 판정이 보이는 범위와 거의 같았고, 속도도 빠르고 랜덤성도 강했어요"
 
 #. 中文: 而在现在大多的STG中都采用了缩小了判定范围同时提升弹量的做法。
 #, fuzzy
 msgctxt "story/A1.sry/15"
 msgid "ですが今のSTGは当たり判定を縮小し、同時に弾の量をアップするというやり方を採用してます。"
-msgstr "하지만 요즘 슈팅 게임은 피격 판정을 줄이고, 동시에 탄의 양을 늘리는 방식을 쓰고 있죠."
+msgstr "하지만 요즘 샷 게임은 피격 판정을 줄이고, 동시에 탄의 양을 늘리는 방식을 쓰고 있죠."
 
 #. 中文: 子弹的运动与生成更加有规律性，因此能出现很强的视觉效果。
 msgctxt "story/A1.sry/16"
@@ -126,7 +126,7 @@ msgstr ""
 #, fuzzy
 msgctxt "story/A2_1.sry/0"
 msgid "前も言いましたが、自機だけではなく、弾幕のあたり判定も見える範囲より小さい。"
-msgstr "앞에서 말했듯이, 자기 기체뿐만 아니라 탄막의 피격 판정도 보이는 범위보다 작아요."
+msgstr "앞에서 말했듯이, 내 기체뿐만 아니라 탄막의 피격 판정도 보이는 범위보다 작아요."
 
 #. 中文: 举个例子，像这样一颗子弹,
 #. EN: For example, look at this bullet.
@@ -245,7 +245,7 @@ msgstr "초보자분들은 탄막 패턴 같은 건 파악하기 어렵다고 �
 #, fuzzy
 msgctxt "story/A3_1.sry/2"
 msgid "今の弾幕シューティングゲームはほぼパターンというもんが存在します。"
-msgstr "요즘 탄막 슈팅 게임에는 거의 패턴이라는 게 존재한답니다."
+msgstr "요즘 탄막 샷 게임에는 거의 패턴이라는 게 존재한답니다."
 
 #. CN/JP conversation count differs (CN 6 / JP 7)
 #. 中文: 其中，纯粹的随机弹其实很少的。
@@ -433,7 +433,7 @@ msgstr "조준탄에 대응하는 기본은 최하단에서 조금씩 움직이�
 #, fuzzy
 msgctxt "story/A5_3.sry/0"
 msgid "自機狙いは自機への指向的な攻撃です。"
-msgstr "조준탄은 자기 기체를 향한 지향성 공격이에요."
+msgstr "조준탄은 내 기체를 향한 지향성 공격이에요."
 
 #. 中文: 可以产生直接的威胁，却有相当的规律性。
 #. EN: They are a direct threat to your safety, yet also highly predictable.
@@ -455,7 +455,7 @@ msgstr "대응만 제대로 하면 화면이 혼란스러워질 일은 없어요
 #, fuzzy
 msgctxt "story/A6_1.sry/0"
 msgid "自機狙いも、自機依存弾の一種として扱えます。"
-msgstr "조준탄도 자기 기체에 따라 달라지는 탄의 일종으로 볼 수 있어요."
+msgstr "조준탄도 내 기체에 따라 달라지는 탄의 일종으로 볼 수 있어요."
 
 #. 中文: 最典型的就是奇数弹和偶数弹。
 #. EN: Based on the no. of directions in which they are fired, we call them
@@ -493,7 +493,7 @@ msgstr "짝수탄은 꼭 탄이 나가는 방향 수가 짝수라서 짝수탄�
 #, fuzzy
 msgctxt "story/A6_2.sry/1"
 msgid "一般的には自機に対して一定角度を逸らして打ってくきます。このように必ず当たらないのは偶数弾と呼びます。"
-msgstr "보통 자기 기체에서 일정 각도 비껴서 쏘는데, 이렇게 반드시 빗나가는 걸 짝수탄이라고 해요."
+msgstr "보통 내 기체에서 일정 각도 비껴서 쏘는데, 이렇게 반드시 빗나가는 걸 짝수탄이라고 해요."
 
 #. 中文: 当然奇数弹的子弹道数也不一定是奇数。
 #. EN: Similarly, "odd shots" don't have to be literally so.
@@ -573,26 +573,26 @@ msgstr "아, 움직이지 마세요～"
 #, fuzzy
 msgctxt "story/B1.sry/0"
 msgid "コントロールの精度はSTGプレーヤーの必修科目です。"
-msgstr "조작 정확도는 슈팅 게임 플레이어의 필수 과목이에요."
+msgstr "조작 정확도는 샷 게임 플레이어의 필수 과목이에요."
 
 #. 中文: 如何在高密度的弹幕里精确控制自机可是非常有学问的。
 #, fuzzy
 msgctxt "story/B1.sry/1"
 msgid "如何に高密度の弾幕の中で、自機を精確にコントロールするのか。これは非常に奥が深い問題です。"
-msgstr "빽빽한 탄막 속에서 자기 기체를 얼마나 정확하게 다루느냐. 이건 정말 깊은 주제예요."
+msgstr "빽빽한 탄막 속에서 내 기체를 얼마나 정확하게 다루느냐. 이건 정말 깊은 주제예요."
 
 #. 中文: 这里再提一下STG的发展历史。
 #, fuzzy
 msgctxt "story/B1.sry/2"
 msgid "ここでもうすこしSTGゲームの発展歴史の話をします。"
-msgstr "여기서 슈팅 게임의 발전 역사를 조금 더 얘기할게요."
+msgstr "여기서 샷 게임의 발전 역사를 조금 더 얘기할게요."
 
 #. 中文: 在早期STG游戏中，自机的斜向运动速度是两个横竖放向运动速度的叠加。也就是说斜方向的运动速度其实是横竖方向速度的1.4倍。
 #, fuzzy
 msgctxt "story/B1.sry/3"
 msgid "早期のSTGゲームでは、自機の斜めの運動速度は横方向＋縦方向の運動速度で、つまり、斜めの運動速度は横、縦の1.4倍になります。"
 msgstr ""
-"초기 슈팅 게임에서는 자기 기체의 대각선 이동 속도가 가로 속도 더하기 세로 속도였어요. 즉 대각선 속도가 가로, 세로의 1.4배였죠."
+"초기 샷 게임에서는 내 기체의 대각선 이동 속도가 가로 속도 더하기 세로 속도였어요. 즉 대각선 속도가 가로, 세로의 1.4배였죠."
 
 #. 中文: 这种在程序里很好实现，但是实际中却很不合理嘛。
 #, fuzzy
@@ -617,8 +617,8 @@ msgstr "그런데 여기서 또 다른 문제가 생겼어요. 바로 최하단�
 msgctxt "story/B1.sry/7"
 msgid "たとえば、自機は最下段にいて、↓を押し続いて左右移動する場合、自機はもう下へは行けないが、移動速度は斜め下の移動速度です。"
 msgstr ""
-"예를 들어, 자기 기체가 맨 아래에 있고 ↓를 누른 채 좌우로 이동하는 경우, 자기 기체는 더 이상 아래로 갈 수 없지만 이동 속도는 "
-"대각선 아래 방향의 속도예요."
+"예를 들어, 내 기체가 맨 아래에 있고 ↓를 누른 채 좌우로 이동하는 경우, 내 기체는 더 이상 아래로 갈 수 없지만 이동 속도는 대각선"
+" 아래 방향의 속도예요."
 
 #. 中文: 于是速度沿水平方向的分量会变成单纯左右移动时候的0.7倍。
 #, fuzzy
@@ -1140,7 +1140,7 @@ msgstr "영어 번역"
 #. credits: translate role titles only; keep person names unchanged
 msgctxt "scene/015"
 msgid "自机行走图原画"
-msgstr "자기 기체 도트 원화"
+msgstr "내 기체 도트 원화"
 
 #. 에셋: level4:173
 #. credits: translate role titles only; keep person names unchanged
@@ -1303,7 +1303,7 @@ msgid ""
 msgstr ""
 "기초 교육편 B-9 스테이지 배경 음악.\n"
 "리듬 게임 O2Jam에 바치는 마스터 파일(文件聚聚) 편곡의 파헬벨 캐논.\n"
-"아시다시피 슈팅 게임은 리듬 게임의 하위 장르니까요..."
+"아시다시피 샷 게임은 리듬 게임의 하위 장르니까요..."
 
 #. 중국어: 永无止境的迷宫（时间挑战关卡）
 #. Spell Practice SP row title (MenuSpellPractice.Start, index 10); no
@@ -1352,7 +1352,7 @@ msgstr "줄지어 날아오는 탄을 특별히 처리할지 여부"
 #. language branch, so this Chinese text is shown for every language
 msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#22"
 msgid "开启后，AI将校验下一帧自机运动后是否中弹， 如果中弹，则重新调整移动策略"
-msgstr "켜면 AI가 다음 프레임의 자기 기체 이동 후 피탄 여부를 확인하고, 피탄한다면 이동 전략을 다시 조정합니다"
+msgstr "켜면 AI가 다음 프레임의 내 기체 이동 후 피탄 여부를 확인하고, 피탄한다면 이동 전략을 다시 조정합니다"
 
 #. 중국어: 在中弹瞬间释放高能粒子炮保住性命
 #. Property window description line (PropertyWindow.SetDescription); no
@@ -1366,7 +1366,7 @@ msgstr "피탄하는 순간 고에너지 입자포를 발사해 목숨을 지킵
 #. language branch, so this Chinese text is shown for every language
 msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#24"
 msgid "影响自机主枪对敌机的杀伤力"
-msgstr "자기 기체 주포의 적기 살상력에 영향을 줍니다"
+msgstr "내 기체 주포의 적기 살상력에 영향을 줍니다"
 
 #. 중국어: 影响子机的数量
 #. Property window description line (PropertyWindow.SetDescription); no
@@ -1380,7 +1380,7 @@ msgstr "옵션의 수에 영향을 줍니다"
 #. language branch, so this Chinese text is shown for every language
 msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#26"
 msgid "自机初始的残机数量"
-msgstr "자기 기체의 초기 잔기 수"
+msgstr "내 기체의 초기 잔기 수"
 
 #. 중국어: 高能粒子炮初始弹量
 #. Property window description line (PropertyWindow.SetDescription); no
@@ -1394,7 +1394,7 @@ msgstr "고에너지 입자포 초기 탄수"
 #. language branch, so this Chinese text is shown for every language
 msgctxt "dll/Shooting.Menu.PropertyWindow::SetDescription#28"
 msgid "影响在什么时候切换自机的高低速运动，值越高则越容易保持低速"
-msgstr "자기 기체의 고속·저속 이동 전환 시점에 영향을 주며, 값이 높을수록 저속 이동을 유지하기 쉽습니다"
+msgstr "내 기체의 고속·저속 이동 전환 시점에 영향을 주며, 값이 높을수록 저속 이동을 유지하기 쉽습니다"
 
 #. 중국어: 当前子弹威胁计算时的权重因子
 #. Property window description line (PropertyWindow.SetDescription); no
@@ -1460,7 +1460,7 @@ msgctxt "dll/Shooting.MenuCameraCtrl::SetCameraTarget#113"
 msgid ""
 "Hitboxes are shown on all bullets during the lesson. Good to know even if "
 "you are a danmaku expert."
-msgstr "이 스테이지에서는 모든 탄에 피격 판정이 표시됩니다. 탄막 고수도 먼저 확인해 두면 좋아요."
+msgstr "이 스테이지에서는 모든 탄에 피격 판정이 표시됩니다. 탄막 게임에 익숙해도 알아두면 좋을 거예요."
 
 #. 중국어: <size=+12>随机弹介绍</size>
 #. Stage select description (MenuCameraCtrl.SetCameraTarget, default/SCN
