@@ -248,5 +248,10 @@
   "term": "restreaming",
   "ko": "리스트리밍",
   "kind": "term"
+ },
+ {
+  "term": "Border-Tapping",
+  "ko": "보더 탭핑",
+  "kind": "term"
  }
 ]
