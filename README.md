@@ -22,11 +22,9 @@
 
 | 폰트 | 제작자 | 라이선스 |
 |---|---|---|
-| [Gowun Dodum Regular](https://fonts.google.com/specimen/Gowun+Dodum) | Yanghee Ryu (류양희) | [OFL 1.1](assets/fonts/OFL-GowunDodum.txt) |
 | [Noto Sans KR](https://fonts.google.com/noto/specimen/Noto+Sans+KR) | Google / Adobe | [OFL 1.1](assets/fonts/OFL-NotoSansKR.txt) |
 
-* Gowun Dodum Regular: 중국어 슬롯(SCN)을 한국어로 대체하며, 站酷文艺体(ZKWYT SDF) 자리에 들어갑니다. 영문·숫자는 게임 원본 글리프를 그대로 사용합니다. 2350자 KS X 1001 한글을 게임 폰트 아틀라스에 직접 렌더한 SDF 글리프로 추가했습니다.
-* Noto Sans KR: 메뉴·일시정지·스펠카드 이름 이미지에 사용됨.
+* Noto Sans KR: 중국어 슬롯(SCN)을 한국어로 대체하며, 站酷文艺体(ZKWYT SDF) 자리에 들어갑니다. 영문·숫자는 게임 원본 글리프를 그대로 사용합니다. 2350자 KS X 1001 한글을 게임 폰트 아틀라스에 직접 렌더한 SDF 글리프로 추가했습니다. 메뉴·일시정지·스펠카드 이름 이미지에도 사용됨.
 
 ## 라이선스
 
