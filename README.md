@@ -1,7 +1,7 @@
 # Barrage Musical \~Basic Danmaku Tutorial\~ 한글 패치 (2026-11-17)
 
 * 검수: 김작가
-* 작업/번역: Claude (AI 번역)
+* 작업/번역: Claude Sonnet 5.5/Deepseek v4 flash
 * 오류, 오타는 kimjakka96@gmail.com로 제보해주시면 수정 배포하도록 하겠습니다.
 
 <p align="center"><a href="https://store.steampowered.com/app/1173940">Steam🔗</a>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<a href="https://github.com/kjk-l10n-ko/bxm-tutorial-l10n-ko/releases/latest">Korean Patch Download⬇️</a></p>
