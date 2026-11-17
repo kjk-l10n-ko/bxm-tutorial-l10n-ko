@@ -425,7 +425,7 @@ msgstr "특히 크게 움직이면 조준탄이 흩어져 버려요."
 #, fuzzy
 msgctxt "story/A5_2.sry/2"
 msgid "自機狙い基本的な対応策は最下段で少しづつ移動することです。"
-msgstr "조준탄에 대응하는 기본은 최하단에서 조금씩 움직이는 거예요."
+msgstr "조준탄에 대응하는 기본은 최하단에서 조금씩 움직이는 거예요. 이것을 스트리밍(Streaming)이라고 해요."
 
 #. 中文: 自机狙是对自机的指向性攻击。
 #. EN: Always remember, an aimed shot targets where you were when it was first
@@ -662,7 +662,7 @@ msgstr "이어서 조준탄 대응법을 소개할게요."
 #, fuzzy
 msgctxt "story/B2.sry/1"
 msgid "もちろんチョン避けは最も一般的な対応策です。"
-msgstr "물론 스트리밍(Streaming)이 가장 일반적인 대응법이죠."
+msgstr "물론 스트리밍이 가장 일반적인 대응법이죠."
 
 #. 中文: 但是面对大量连续狙的时候，仅仅靠版底微移是不够的，往往需要折返。
 #. EN: However, when the enemy is firing an unbroken line of bullets,
@@ -670,7 +670,7 @@ msgstr "물론 스트리밍(Streaming)이 가장 일반적인 대응법이죠."
 #, fuzzy
 msgctxt "story/B2.sry/2"
 msgid "ですが大量かつ連続の自機狙に遭うとき、チョン避けだけではだめです、切り返しが必要です。"
-msgstr "하지만 조준탄이 많고 연속으로 쏟아질 때는 스트리밍만으론 안 되고 리스트리밍(Restreaming)이 필요해요."
+msgstr "하지만 조준탄이 많고 연속으로 쏟아질 때는 스트리밍만으론 안 되고 리스트리밍이 필요해요."
 
 #. 中文: 折返的基本动作是往一个方向移动一大步，以进行引弹，然后反方向微移。
 #. EN: Restreaming involves misdirecting the bullets by making a large
@@ -693,7 +693,7 @@ msgstr "이것도 아주 중요한 테크닉이에요~"
 #, fuzzy
 msgctxt "story/B2_2.sry/0"
 msgid "切り返しの基本動作はこうです。"
-msgstr "리스트리밍(Restreaming)의 기본 동작은 이래요."
+msgstr "리스트리밍의 기본 동작은 이래요."
 
 #. 中文: 在单方向微移过程中看准弹幕间歇的时机，突然高速移动一大步，
 #. EN: When you are streaming in one direction, make a sudden, large movement,
@@ -723,7 +723,7 @@ msgstr "이 테크닉은 중요하니까 초보자분들은 꼭 연습하시는 
 #, fuzzy
 msgctxt "story/B3.sry/0"
 msgid "自機狙いの範囲が広く、また弾のあたり判定範囲が広い場合、チョン避けだけでは対応しきれなくなります。"
-msgstr "조준탄의 범위가 넓거나 탄의 피격 판정이 넓은 경우엔 스트리밍(Streaming)만으로는 대응이 안 돼요."
+msgstr "조준탄의 범위가 넓거나 탄의 피격 판정이 넓은 경우엔 스트리밍만으로는 대응이 안 돼요."
 
 #. 中文: 面对这种情况，可以考虑用绕圈的方法。
 #. EN: In such cases, you should consider circling the enemy.
