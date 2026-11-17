@@ -7,5 +7,14 @@
     "license_file": "assets/fonts/OFL-GowunDodum.txt",
     "note": "중국어 슬롯(SCN)을 한국어로 대체하며, 站酷文艺体(ZKWYT SDF) 자리에 들어갑니다. 영문·숫자는 게임 원본 글리프를 그대로 사용합니다. 2350자 KS X 1001 한글을 게임 폰트 아틀라스에 직접 렌더한 SDF 글리프로 추가했습니다.",
     "family": "Gowun Dodum"
+  },
+  {
+    "id": "구글/Noto Sans KR",
+    "name": "Noto Sans KR",
+    "author": "Google / Adobe",
+    "url": "https://fonts.google.com/noto/specimen/Noto+Sans+KR",
+    "license_file": "assets/fonts/OFL-NotoSansKR.txt",
+    "family": "Noto Sans KR",
+    "note": "메뉴·일시정지·스펠카드 이름 이미지에 사용됨."
   }
 ]
